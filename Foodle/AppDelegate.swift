@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import NexmoVerify
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        NexmoClient.start(applicationId: "ae5a00f7-c547-41df-99f2-ed957ac4154f", sharedSecretKey: "9cef0e42dbb5217")
         return true
     }
 
