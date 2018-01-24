@@ -42,7 +42,7 @@ class MenuDetailCell: UITableViewCell{
 
 class MenuAddCell: UITableViewCell{
     
-    
+    @IBOutlet weak var titleLabel: UILabel!
     
 }
 

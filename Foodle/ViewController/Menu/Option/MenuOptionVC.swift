@@ -8,33 +8,16 @@
 
 import UIKit
 
-class MenuOptionVC: UIViewController {
+class MenuOptionVC: MenuOptionBaseVC {
 
     @IBOutlet weak var tableView: UITableView!
-    let cellId = "MenuDetailCell"
+    @IBOutlet weak var titleLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.register(UINib.init(nibName: cellId, bundle: nil), forCellReuseIdentifier: cellId)
-        tableView.dataSource = self
-        tableView.delegate = self
+        contentArr = [("빵 종류를 선택하세요.", "허니브레드, 갈릭브레드, 그냥브레드, 막 브레드"), ("빵 종류를 선택하세요.", "허니브레드, 갈릭브레드, 그냥브레드, 막 브레드")]
+        option = .option
+        initTableView(tableView)
     }
 
-}
-
-extension MenuOptionVC: UITableViewDataSource, UITableViewDelegate{
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as! MenuDetailCell
-        return cell
-    }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 70
-    }
-    
 }

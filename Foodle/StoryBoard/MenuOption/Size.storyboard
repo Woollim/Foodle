@@ -13,7 +13,7 @@
         <!--Menu SizeVC-->
         <scene sceneID="3SQ-HW-NFS">
             <objects>
-                <viewController id="cyi-I9-gH4" customClass="MenuSizeVC" customModule="Foodle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MenuSizeView" id="cyi-I9-gH4" customClass="MenuSizeVC" customModule="Foodle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="APu-jb-MoT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -26,6 +26,9 @@
                                     <constraint firstAttribute="width" constant="22" id="sQB-27-uFJ"/>
                                 </constraints>
                                 <state key="normal" image="user_enter_num_back_icon.png"/>
+                                <connections>
+                                    <action selector="back" destination="cyi-I9-gH4" eventType="touchUpInside" id="oGo-WV-Ghf"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A라는 음식의 사이즈" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7xY-Dq-Kej">
                                 <rect key="frame" x="16" y="66" width="343" height="33.5"/>
@@ -43,6 +46,9 @@
                                 <state key="normal" title="확인">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="next" destination="cyi-I9-gH4" eventType="touchUpInside" id="8xZ-pg-Sjn"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="사이즈를 수정합니다." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bcc-mH-K2l">
                                 <rect key="frame" x="16" y="115.5" width="166" height="24"/>
@@ -85,7 +91,7 @@
         <!--Menu Size EditVC-->
         <scene sceneID="RPZ-ol-SWt">
             <objects>
-                <viewController id="7Zz-cK-14S" customClass="MenuSizeEditVC" customModule="Foodle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MenuSizeEditView" id="7Zz-cK-14S" customClass="MenuSizeEditVC" customModule="Foodle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yRB-aN-7UK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -98,6 +104,9 @@
                                     <constraint firstAttribute="width" constant="22" id="fyu-o5-eaG"/>
                                 </constraints>
                                 <state key="normal" image="user_enter_num_back_icon.png"/>
+                                <connections>
+                                    <action selector="back" destination="7Zz-cK-14S" eventType="touchUpInside" id="eiI-a9-dY3"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="사이즈 이름" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZf-7A-tvG">
                                 <rect key="frame" x="16" y="131.5" width="82.5" height="21"/>
@@ -153,6 +162,9 @@
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="next" destination="7Zz-cK-14S" eventType="touchUpInside" id="1he-Hh-AP8"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

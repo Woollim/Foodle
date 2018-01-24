@@ -8,47 +8,33 @@
 
 import UIKit
 
-class MenuSizeVC: UIViewController {
+class MenuSizeVC: MenuOptionBaseVC{
 
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var tableView: UITableView!
     
-    let cellId = "MenuDetailCell"
-    let addCellId = ""
-    
     let menuName = "참깨빵위의 맛있는 빅맥"
-    
-    var contentArr = [(String, String)]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        contentArr = [("스몰", "3500원"), ("스몰", "3500원"), ("스몰", "3500원"), ("스몰", "3500원"), ("스몰", "3500원")]
+        option = .size
+        initTableView(tableView)
         titleLabel.text = "\(menuName)\n사이즈"
-        tableView.register(UINib.init(nibName: cellId, bundle: nil), forCellReuseIdentifier: cellId)
-        tableView.dataSource = self
-        tableView.delegate = self
+    }
+    
+    override func goNext(_ data: (String, String)? = nil) {
+        let nextVC = storyboard?.instantiateViewController(withIdentifier: option.getNextVCId()) as! MenuSizeEditVC
+        nextVC.data = data
+        present(nextVC, animated: true, completion: nil)
+    }
+    
+    @IBAction func back(){
+        goBack()
+    }
+    
+    @IBAction func next(){
+        goBack()
     }
 
-}
-
-extension MenuSizeVC: UITableViewDataSource, UITableViewDelegate{
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return contentArr.count + 1
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if indexPath.row == contentArr.count{
-            let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as! MenuDetailCell
-            return cell
-        }else{
-            let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as! MenuDetailCell
-            return cell
-        }
-    }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        if indexPath.row == contentArr.count{ return 50 }
-        else{ return 70 }
-    }
-    
 }

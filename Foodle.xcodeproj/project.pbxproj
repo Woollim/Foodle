@@ -17,6 +17,7 @@
 		C318CA14201855BF002A753B /* Option.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C318CA13201855BF002A753B /* Option.storyboard */; };
 		C318CA16201855F0002A753B /* FoodStuff.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C318CA15201855F0002A753B /* FoodStuff.storyboard */; };
 		C318CA18201856CC002A753B /* OwnerMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C318CA17201856CC002A753B /* OwnerMain.storyboard */; };
+		C318CA1B20185EA3002A753B /* MenuOptionBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C318CA1A20185EA3002A753B /* MenuOptionBaseVC.swift */; };
 		D013110E2004E8650056437E /* select_photo_add_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D013110C2004E8650056437E /* select_photo_add_icon.png */; };
 		D013110F2004E8650056437E /* select_photo_back_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D013110D2004E8650056437E /* select_photo_back_icon.png */; };
 		D01311132004EDDD0056437E /* PrepareSelectPhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01311122004EDDD0056437E /* PrepareSelectPhotoVC.swift */; };
@@ -87,6 +88,7 @@
 		C318CA13201855BF002A753B /* Option.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Option.storyboard; sourceTree = "<group>"; };
 		C318CA15201855F0002A753B /* FoodStuff.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FoodStuff.storyboard; sourceTree = "<group>"; };
 		C318CA17201856CC002A753B /* OwnerMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OwnerMain.storyboard; sourceTree = "<group>"; };
+		C318CA1A20185EA3002A753B /* MenuOptionBaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionBaseVC.swift; sourceTree = "<group>"; };
 		D013110C2004E8650056437E /* select_photo_add_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select_photo_add_icon.png; sourceTree = "<group>"; };
 		D013110D2004E8650056437E /* select_photo_back_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select_photo_back_icon.png; sourceTree = "<group>"; };
 		D01311122004EDDD0056437E /* PrepareSelectPhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepareSelectPhotoVC.swift; sourceTree = "<group>"; };
@@ -352,6 +354,7 @@
 			children = (
 				D0E7984E20165C3A00BE48C2 /* MenuBaseInfoVC.swift */,
 				D0E7985020165D5700BE48C2 /* MenuOptionStepVC.swift */,
+				C318CA1A20185EA3002A753B /* MenuOptionBaseVC.swift */,
 				D0E798562016649800BE48C2 /* Size */,
 				C318CA0D201854F3002A753B /* Category */,
 				D0E79857201664A900BE48C2 /* Option */,
@@ -632,6 +635,7 @@
 				D070031F2003918400E5304B /* SelectPhotoVC.swift in Sources */,
 				D0933D0D200BE5C1004B17A6 /* MainVC.swift in Sources */,
 				D0E798622017C63600BE48C2 /* MenuFoodStuffVC.swift in Sources */,
+				C318CA1B20185EA3002A753B /* MenuOptionBaseVC.swift in Sources */,
 				D0E79855201663BA00BE48C2 /* MenuSizeEditVC.swift in Sources */,
 				D0E79859201664DC00BE48C2 /* MenuOptionVC.swift in Sources */,
 				D0801DDF1FFB5B4400DC9518 /* Base.swift in Sources */,

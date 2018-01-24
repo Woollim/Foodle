@@ -11,10 +11,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Menu SizeVC-->
+        <!--Menu OptionVC-->
         <scene sceneID="aMd-Ml-57n">
             <objects>
-                <viewController id="J5t-xL-Tmt" customClass="MenuSizeVC" customModule="Foodle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="J5t-xL-Tmt" customClass="MenuOptionVC" customModule="Foodle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HX1-rc-iUg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -49,8 +49,8 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="옵션 수정합니다." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGU-MR-Yao">
-                                <rect key="frame" x="16" y="150" width="132" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="옵션을 수정합니다." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGU-MR-Yao">
+                                <rect key="frame" x="16" y="150" width="148.5" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -79,6 +79,7 @@
                     </view>
                     <connections>
                         <outlet property="tableView" destination="MIz-b9-2HP" id="OgC-UG-a2Z"/>
+                        <outlet property="titleLabel" destination="W7n-im-rHQ" id="FY1-7y-5yK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WiY-bY-UQa" userLabel="First Responder" sceneMemberID="firstResponder"/>

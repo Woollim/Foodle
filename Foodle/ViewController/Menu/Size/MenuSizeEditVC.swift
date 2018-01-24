@@ -13,8 +13,22 @@ class MenuSizeEditVC: UIViewController {
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var priseTextField: UITextField!
     
+    var data: (String, String)?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        if let sendData = data{
+            nameTextField.text = sendData.0
+            priseTextField.text = sendData.1
+        }
+    }
+    
+    @IBAction func back(){
+        goBack()
+    }
+    
+    @IBAction func next(){
+        goBack()
     }
 
 }
