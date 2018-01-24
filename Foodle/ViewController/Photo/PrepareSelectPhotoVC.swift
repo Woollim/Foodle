@@ -10,7 +10,12 @@ import UIKit
 
 class PrepareSelectPhotoVC: BasePhotoVC {
     
+    @IBOutlet weak var titleLabel: UILabel!
     var selectPhotoVC: SelectPhotoVC? = nil
+    
+    override func viewDidLoad() {
+        titleLabel.text = "사진을 등록할\n준비가 되었나요?"
+    }
 
     @IBAction func back(_ sender: Any) {}
     

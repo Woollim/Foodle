@@ -13,7 +13,23 @@ class MenuStepCell: UITableViewCell{
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var subLabel: UILabel!
+    @IBOutlet weak var button: RedButtonShape!
     
+    var buttonClick: (() -> ())?
+    
+    func setUnClick(){
+        button.backgroundColor = .lightGray
+        button.isEnabled = false
+    }
+    
+    func setClick(){
+        button.backgroundColor = Color.red.getColor()
+        button.isEnabled = true
+    }
+    
+    @IBAction func click(){
+        buttonClick?()
+    }
     
 }
 
@@ -21,6 +37,12 @@ class MenuDetailCell: UITableViewCell{
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var subLabel: UILabel!
+    
+}
+
+class MenuAddCell: UITableViewCell{
+    
+    
     
 }
 

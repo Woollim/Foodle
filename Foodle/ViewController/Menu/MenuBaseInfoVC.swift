@@ -15,15 +15,17 @@ class MenuBaseInfo1VC: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-
+    
+    @IBAction func back(){
+        goBack()
+    }
+    
 }
 
 class MenuBaseInfo2VC: UIViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        // Do any additional setup after loading the view.
+    @IBAction func back(){
+        goBack()
     }
     
 }

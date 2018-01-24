@@ -37,7 +37,6 @@ class UserEnterPinVC: UIViewController {
     }
     
     override func viewDidLoad() {
-        nextButton.layer.cornerRadius = 24
         pinTextField.delegate = self
     }
 

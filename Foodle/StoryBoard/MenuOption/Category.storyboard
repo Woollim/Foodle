@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Menu Option StepVC-->
+        <scene sceneID="l3e-GW-JKM">
+            <objects>
+                <viewController id="YxM-hw-XHc" customClass="MenuOptionStepVC" customModule="Foodle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="af3-JY-23X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fgh-Cb-WA1">
+                                <rect key="frame" x="16" y="28" width="22" height="22"/>
+                                <color key="backgroundColor" red="0.93333333330000001" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="22" id="rWp-dY-NkM"/>
+                                    <constraint firstAttribute="height" constant="22" id="vq6-2s-iuK"/>
+                                </constraints>
+                                <state key="normal" image="user_enter_num_back_icon.png"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A라는 음식의 카테고리" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BFX-MU-4E3">
+                                <rect key="frame" x="16" y="66" width="200" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="k1h-o5-qaw"/>
+                                    <constraint firstAttribute="width" constant="200" id="rkG-mj-Yg2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A 음식의 카테고리를 선택해주세요." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WNd-ov-zOa">
+                                <rect key="frame" x="16" y="150" width="275.5" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Vp-we-owf">
+                                <rect key="frame" x="16" y="210" width="288" height="1"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="uPg-QO-lfC"/>
+                                </constraints>
+                            </view>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="예)수제 햄버거" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="RUy-9J-H8v">
+                                <rect key="frame" x="16" y="182" width="288" height="24"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WNd-ov-zOa" firstAttribute="leading" secondItem="ZEE-5c-nwD" secondAttribute="leading" constant="16" id="Mfa-tl-AF6"/>
+                            <constraint firstItem="WNd-ov-zOa" firstAttribute="top" secondItem="BFX-MU-4E3" secondAttribute="bottom" constant="16" id="O3D-VV-BvK"/>
+                            <constraint firstItem="1Vp-we-owf" firstAttribute="top" secondItem="RUy-9J-H8v" secondAttribute="bottom" constant="4" id="U00-tq-Upi"/>
+                            <constraint firstItem="BFX-MU-4E3" firstAttribute="top" secondItem="Fgh-Cb-WA1" secondAttribute="bottom" constant="16" id="bTh-sq-Tah"/>
+                            <constraint firstItem="BFX-MU-4E3" firstAttribute="leading" secondItem="af3-JY-23X" secondAttribute="leading" constant="16" id="jRE-wd-0dq"/>
+                            <constraint firstItem="Fgh-Cb-WA1" firstAttribute="leading" secondItem="af3-JY-23X" secondAttribute="leading" constant="16" id="jkc-Oe-Q9c"/>
+                            <constraint firstItem="Fgh-Cb-WA1" firstAttribute="top" secondItem="ZEE-5c-nwD" secondAttribute="top" constant="8" id="oZB-Gh-jIc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZEE-5c-nwD"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IyJ-WZ-L8i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2978" y="155"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="user_enter_num_back_icon.png" width="256" height="256"/>
+    </resources>
+</document>

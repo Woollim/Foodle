@@ -40,10 +40,9 @@
                                 </constraints>
                                 <state key="normal" image="user_enter_num_back_icon.png"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="핸드폰 번호를확인해 주세요" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GH7-5S-GjQ">
-                                <rect key="frame" x="16" y="82" width="155" height="70"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="핸드폰 번호를 확인해 주세요" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GH7-5S-GjQ">
+                                <rect key="frame" x="16" y="82" width="343" height="70"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="155" id="LvD-vr-kGG"/>
                                     <constraint firstAttribute="height" constant="70" id="e4X-Qp-pwH"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
@@ -128,6 +127,7 @@
                             <constraint firstItem="q8B-TQ-81m" firstAttribute="top" secondItem="GH7-5S-GjQ" secondAttribute="bottom" constant="2" id="c4c-xb-NBP"/>
                             <constraint firstItem="ZCf-k8-mhE" firstAttribute="leading" secondItem="6I1-Q5-Rjn" secondAttribute="leading" constant="16" id="ivr-ry-h2V"/>
                             <constraint firstItem="q8B-TQ-81m" firstAttribute="leading" secondItem="6I1-Q5-Rjn" secondAttribute="leading" constant="16" id="l4c-0M-iYI"/>
+                            <constraint firstItem="6I1-Q5-Rjn" firstAttribute="trailing" secondItem="GH7-5S-GjQ" secondAttribute="trailing" constant="16" id="oKZ-NJ-6c6"/>
                             <constraint firstItem="6I1-Q5-Rjn" firstAttribute="trailing" secondItem="vio-Ky-BJt" secondAttribute="trailing" constant="16" id="sJg-Xd-Dq0"/>
                             <constraint firstItem="ZCf-k8-mhE" firstAttribute="top" secondItem="6I1-Q5-Rjn" secondAttribute="top" constant="8" id="v6r-pg-zyQ"/>
                             <constraint firstItem="6I1-Q5-Rjn" firstAttribute="bottom" secondItem="CcZ-FX-hOK" secondAttribute="bottom" constant="16" id="w1j-vX-JJ3"/>
@@ -137,6 +137,7 @@
                     <connections>
                         <outlet property="countryNumButton" destination="Sw2-gh-jsL" id="TfB-Ai-YjG"/>
                         <outlet property="nextButton" destination="CcZ-FX-hOK" id="37U-is-hsL"/>
+                        <outlet property="titleLabel" destination="GH7-5S-GjQ" id="a3k-fu-Ora"/>
                         <outlet property="userNumTextField" destination="hd0-O9-zOI" id="soS-Xn-3jJ"/>
                     </connections>
                 </viewController>
@@ -152,7 +153,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OXo-8P-gcM">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OXo-8P-gcM" customClass="RoundButtonShape" customModule="Foodle" customModuleProvider="target">
                                 <rect key="frame" x="231" y="603" width="128" height="48"/>
                                 <color key="backgroundColor" red="1" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>

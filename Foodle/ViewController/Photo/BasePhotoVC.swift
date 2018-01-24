@@ -50,8 +50,8 @@ class BasePhotoVC: UIViewController, UIImagePickerControllerDelegate, UINavigati
         print(mediaType)
         
         if mediaType == (kUTTypeImage as NSString as String){
-            let selectedImage = info[UIImagePickerControllerOriginalImage] as! UIImage
-            getPhoto(selectedImage)
+            let selectedImage = info[UIImagePickerControllerEditedImage] != nil ? info[UIImagePickerControllerEditedImage] : info[UIImagePickerControllerOriginalImage]
+            getPhoto(selectedImage as! UIImage)
         }
         picker.dismiss(animated: true, completion: finishFunc)
     }

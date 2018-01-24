@@ -41,4 +41,8 @@ extension UIViewController{
                        completion: { _ in toast.removeFromSuperview() })
     }
     
+    func goBack(_ fun: (() -> ())? = nil){
+        self.dismiss(animated: true, completion: fun)
+    }
+    
 }

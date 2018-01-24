@@ -14,6 +14,7 @@ class UserEnterNumVC: UIViewController {
     @IBOutlet weak var countryNumButton: UIButton!
     @IBOutlet weak var userNumTextField: UITextField!
     @IBOutlet weak var nextButton: UIButton!
+    @IBOutlet weak var titleLabel: UILabel!
     
     private var checkNumLength = 10
     private var currentCountryNum = 0
@@ -21,11 +22,10 @@ class UserEnterNumVC: UIViewController {
     let countryCodeStrArr = ["KR", "JP", "US", "AU", "HK"]
     var alert = UIAlertController()
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        titleLabel.text = "핸드폰 번호를\n확인해 주세요."
         countryNumButton.layer.cornerRadius = 8
-        nextButton.layer.cornerRadius = 24
         userNumTextField.delegate = self
         createAlert()
     }

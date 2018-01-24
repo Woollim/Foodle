@@ -9,7 +9,29 @@
 import Foundation
 import UIKit
 
-class RedButtonShape: UIButton{
+class RedButtonShape: RoundButtonShape{
+    
+    override func setLayout(){
+        super.setLayout()
+        backgroundColor = Color.red.getColor()
+        tintColor = .white
+    }
+    
+}
+
+class RedStrokeButtonShape: RoundButtonShape{
+    
+    override func setLayout(){
+        super.setLayout()
+        layer.borderWidth = 2
+        layer.borderColor = Color.red.getColor().cgColor
+        backgroundColor = .white
+        tintColor = Color.red.getColor()
+    }
+    
+}
+
+class RoundButtonShape: UIButton{
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -17,9 +39,8 @@ class RedButtonShape: UIButton{
     }
     
     func setLayout(){
+        self.titleLabel?.font = UIFont.systemFont(ofSize: 16)
         layer.cornerRadius = frame.height / 2
-        backgroundColor = Color.red.getColor()
-        tintColor = .white
     }
     
 }

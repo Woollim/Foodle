@@ -18,10 +18,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="사진을 등록할   준비가 되었나요?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0r-qp-wAP">
-                                <rect key="frame" x="16" y="82" width="190" height="70"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="사진을 등록할 준비가 되었나요?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0r-qp-wAP">
+                                <rect key="frame" x="16" y="82" width="347.5" height="70"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="190" id="PHy-I5-XUc"/>
                                     <constraint firstAttribute="height" constant="70" id="UQC-wg-qg8"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
@@ -110,6 +109,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fT9-X6-ByP"/>
                     </view>
+                    <connections>
+                        <outlet property="titleLabel" destination="f0r-qp-wAP" id="Pl2-sJ-DDo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K79-Og-3Wg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -124,14 +126,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ySc-87-YmL">
-                                <rect key="frame" x="261" y="605" width="98" height="46"/>
+                                <rect key="frame" x="231" y="603" width="128" height="48"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tHc-MI-rin" customClass="RedButtonShape" customModule="Foodle" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="98" height="46"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="128" height="48"/>
                                         <color key="backgroundColor" red="1" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="46" id="7Gs-gj-HJe"/>
-                                            <constraint firstAttribute="width" constant="98" id="7ce-pb-Q4I"/>
+                                            <constraint firstAttribute="height" constant="48" id="7Gs-gj-HJe"/>
+                                            <constraint firstAttribute="width" constant="128" id="7ce-pb-Q4I"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="저장">
@@ -161,7 +163,7 @@
                                 </items>
                             </toolbar>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="bCU-VD-IKw">
-                                <rect key="frame" x="0.0" y="82" width="375" height="507"/>
+                                <rect key="frame" x="0.0" y="82" width="375" height="505"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewLayout key="collectionViewLayout" id="ciH-HK-7w5" customClass="RAReorderableLayout" customModule="RAReorderableLayout"/>
                                 <cells>

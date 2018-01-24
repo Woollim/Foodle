@@ -62,7 +62,6 @@ extension SelectPhotoVC: RAReorderableLayoutDelegate, RAReorderableLayoutDataSou
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "photoCell", for: indexPath) as! PhotoCell
         cell.imageView.image = photoArr[indexPath.row]
-        if indexPath.row == 0{ cell.addMailLabel() }
         return cell
     }
     
@@ -78,7 +77,12 @@ class PhotoCell: UICollectionViewCell{
         setLayout()
     }
     
-    func addMailLabel(){
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        setLayout()
+    }
+    
+    func addMainLabel(){
         let label = UILabel.init(frame: CGRect.init(x: 10, y: contentView.frame.height - 8 - 24, width: 58, height: 24))
         label.text = "대표사진"
         label.textColor = UIColor.white
@@ -86,10 +90,16 @@ class PhotoCell: UICollectionViewCell{
         label.font = UIFont.systemFont(ofSize: 12)
         label.backgroundColor = UIColor.gray
         label.layer.cornerRadius = 4
+        label.tag = 1
         contentView.addSubview(label)
     }
     
+    func removeMainLabel(){
+        contentView.viewWithTag(1)?.removeFromSuperview()
+    }
+    
     func setLayout(){
+        imageView.contentMode = .scaleAspectFit
         imageView.frame = bounds
         contentView.addSubview(imageView)
     }
