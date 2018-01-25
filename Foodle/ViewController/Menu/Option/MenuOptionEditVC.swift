@@ -8,17 +8,24 @@
 
 import UIKit
 
-class MenuOptionEditVC: UIViewController {
+class MenuOptionEditVC: MenuTableBaseVC {
 
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var priseTextField: UITextField!
     @IBOutlet weak var selectionTableView: UITableView!
     
+    var data: (String, String)?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        contentArr = [("허니브레드", ""), ("허니브레드", ""), ("허니브레드", ""), ("허니브레드", ""), ("허니브레드", "")]
+        initTableView(selectionTableView)
         selectionTableView.dataSource = self
-        selectionTableView.delegate = self
-        selectionTableView.register(UINib.init(nibName: "SelectionCell", bundle: nil), forCellReuseIdentifier: "SelectionCell")
+    }
+    
+    override func goNext(_ data: (String, String)?) {
+        let nextVC = storyboard?.instantiateViewController(withIdentifier: "") as! SelectionEditVC
+        present(nextVC, animated: true, completion: nil)
     }
 
 }
@@ -26,11 +33,12 @@ class MenuOptionEditVC: UIViewController {
 extension MenuOptionEditVC: UITableViewDataSource, UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return contentArr.count + 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "SelectionCell", for: indexPath) as! SelectionCell
+        let cell = UITableViewCell()
+        cell.textLabel?.text = contentArr[indexPath.row].0
         return cell
     }
     

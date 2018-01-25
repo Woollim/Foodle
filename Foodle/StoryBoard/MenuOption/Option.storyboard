@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="J5t-xL-Tmt">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -14,7 +13,7 @@
         <!--Menu OptionVC-->
         <scene sceneID="aMd-Ml-57n">
             <objects>
-                <viewController id="J5t-xL-Tmt" customClass="MenuOptionVC" customModule="Foodle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MenuOptionView" id="J5t-xL-Tmt" customClass="MenuOptionVC" customModule="Foodle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HX1-rc-iUg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -29,11 +28,7 @@
                                 <state key="normal" image="user_enter_num_back_icon.png"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A라는 음식의 옵션" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W7n-im-rHQ">
-                                <rect key="frame" x="16" y="66" width="200" height="68"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="LHT-fo-CkV"/>
-                                    <constraint firstAttribute="height" constant="68" id="Q8E-Js-Vja"/>
-                                </constraints>
+                                <rect key="frame" x="16" y="66" width="343" height="33.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -50,13 +45,13 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="옵션을 수정합니다." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGU-MR-Yao">
-                                <rect key="frame" x="16" y="150" width="148.5" height="24"/>
+                                <rect key="frame" x="16" y="115.5" width="148.5" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="MIz-b9-2HP">
-                                <rect key="frame" x="0.0" y="190" width="375" height="397"/>
+                                <rect key="frame" x="0.0" y="155.5" width="375" height="431.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
@@ -72,6 +67,7 @@
                             <constraint firstItem="QGU-MR-Yao" firstAttribute="leading" secondItem="aKd-Sz-W7h" secondAttribute="leading" constant="16" id="TXw-5r-7VP"/>
                             <constraint firstItem="aKd-Sz-W7h" firstAttribute="trailing" secondItem="MIz-b9-2HP" secondAttribute="trailing" id="Znr-jj-BuK"/>
                             <constraint firstItem="bqP-GO-WCP" firstAttribute="top" secondItem="aKd-Sz-W7h" secondAttribute="top" constant="8" id="kNQ-10-jck"/>
+                            <constraint firstItem="aKd-Sz-W7h" firstAttribute="trailing" secondItem="W7n-im-rHQ" secondAttribute="trailing" constant="16" id="mgE-50-9L2"/>
                             <constraint firstItem="QGU-MR-Yao" firstAttribute="top" secondItem="W7n-im-rHQ" secondAttribute="bottom" constant="16" id="u8q-uz-e8K"/>
                             <constraint firstItem="aO3-j9-WHr" firstAttribute="top" secondItem="MIz-b9-2HP" secondAttribute="bottom" constant="16" id="uIp-yx-I6Z"/>
                         </constraints>
@@ -89,7 +85,7 @@
         <!--Menu Option EditVC-->
         <scene sceneID="571-QX-jn7">
             <objects>
-                <viewController id="CCK-Gv-IYq" customClass="MenuOptionEditVC" customModule="Foodle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MenuOptionEditView" id="CCK-Gv-IYq" customClass="MenuOptionEditVC" customModule="Foodle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nfo-ei-94o">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -167,31 +163,6 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="v2Y-my-l88">
                                 <rect key="frame" x="0.0" y="324.5" width="375" height="262.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SelectionCell" id="7in-Ha-oKq" customClass="SelectionCell" customModule="Foodle" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7in-Ha-oKq" id="NKu-6t-FAm">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eMT-Yb-v3n">
-                                                    <rect key="frame" x="15" y="9.5" width="48" height="24"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="eMT-Yb-v3n" firstAttribute="leading" secondItem="NKu-6t-FAm" secondAttribute="leadingMargin" id="FGl-tM-gWb"/>
-                                                <constraint firstItem="eMT-Yb-v3n" firstAttribute="centerY" secondItem="NKu-6t-FAm" secondAttribute="centerY" id="e02-tf-Y9O"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="titleLabel" destination="eMT-Yb-v3n" id="5kg-PT-rrg"/>
-                                        </connections>
-                                    </tableViewCell>
-                                </prototypes>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -299,31 +270,6 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="HDi-Iw-SIh">
                                 <rect key="frame" x="0.0" y="253.5" width="375" height="333.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SelectionCell" id="VBl-lQ-f9O" customClass="SelectionCell" customModule="Foodle" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VBl-lQ-f9O" id="kAg-pf-Btd">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j8A-P2-yRA">
-                                                    <rect key="frame" x="15" y="9.5" width="48" height="24"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="j8A-P2-yRA" firstAttribute="centerY" secondItem="kAg-pf-Btd" secondAttribute="centerY" id="G8X-jp-HrB"/>
-                                                <constraint firstItem="j8A-P2-yRA" firstAttribute="leading" secondItem="kAg-pf-Btd" secondAttribute="leadingMargin" id="o4w-0w-CKx"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="titleLabel" destination="j8A-P2-yRA" id="WdI-hX-cS4"/>
-                                        </connections>
-                                    </tableViewCell>
-                                </prototypes>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
