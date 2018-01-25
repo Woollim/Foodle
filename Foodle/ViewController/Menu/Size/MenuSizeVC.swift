@@ -32,9 +32,5 @@ class MenuSizeVC: MenuOptionBaseVC{
     @IBAction func back(){
         goBack()
     }
-    
-    @IBAction func next(){
-        goBack()
-    }
 
 }

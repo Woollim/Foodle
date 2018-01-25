@@ -10,7 +10,6 @@
 		62503F425DFE9BFD349C26F7 /* Pods_Foodle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBAED73D2A69309DA9ACD0F /* Pods_Foodle.framework */; };
 		C318CA0420181474002A753B /* EnterPlaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C318CA0320181474002A753B /* EnterPlaceVC.swift */; };
 		C318CA0620181482002A753B /* CheckPlaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C318CA0520181482002A753B /* CheckPlaceVC.swift */; };
-		C318CA0820181F0A002A753B /* Temp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C318CA0720181F0A002A753B /* Temp.swift */; };
 		C318CA0C201823C0002A753B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C318CA0B201823C0002A753B /* MapKit.framework */; };
 		C318CA0F2018556E002A753B /* Category.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C318CA0E2018556E002A753B /* Category.storyboard */; };
 		C318CA12201855A3002A753B /* Size.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C318CA11201855A3002A753B /* Size.storyboard */; };
@@ -82,7 +81,6 @@
 		955F495719F885ED6E2135A1 /* Pods-Foodle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodle.release.xcconfig"; path = "Pods/Target Support Files/Pods-Foodle/Pods-Foodle.release.xcconfig"; sourceTree = "<group>"; };
 		C318CA0320181474002A753B /* EnterPlaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPlaceVC.swift; sourceTree = "<group>"; };
 		C318CA0520181482002A753B /* CheckPlaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPlaceVC.swift; sourceTree = "<group>"; };
-		C318CA0720181F0A002A753B /* Temp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temp.swift; sourceTree = "<group>"; };
 		C318CA0B201823C0002A753B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		C318CA0E2018556E002A753B /* Category.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Category.storyboard; sourceTree = "<group>"; };
 		C318CA11201855A3002A753B /* Size.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Size.storyboard; sourceTree = "<group>"; };
@@ -189,7 +187,6 @@
 			children = (
 				C318CA0320181474002A753B /* EnterPlaceVC.swift */,
 				C318CA0520181482002A753B /* CheckPlaceVC.swift */,
-				C318CA0720181F0A002A753B /* Temp.swift */,
 			);
 			path = Place;
 			sourceTree = "<group>";
@@ -656,7 +653,6 @@
 				D0E7984D2016564600BE48C2 /* MenuStepVC.swift in Sources */,
 				D0E7984B2016528000BE48C2 /* MenuListVC.swift in Sources */,
 				D08E63D22014665200B69AE4 /* MenuCell.swift in Sources */,
-				C318CA0820181F0A002A753B /* Temp.swift in Sources */,
 				D01311132004EDDD0056437E /* PrepareSelectPhotoVC.swift in Sources */,
 				D0E7985120165D5700BE48C2 /* MenuOptionStepVC.swift in Sources */,
 			);

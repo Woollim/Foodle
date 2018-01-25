@@ -47,7 +47,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="next" destination="cyi-I9-gH4" eventType="touchUpInside" id="8xZ-pg-Sjn"/>
+                                    <action selector="back" destination="cyi-I9-gH4" eventType="touchUpInside" id="sCJ-N7-pXt"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="사이즈를 수정합니다." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bcc-mH-K2l">
@@ -163,6 +163,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="back" destination="7Zz-cK-14S" eventType="touchUpInside" id="Cgr-Fw-bNL"/>
                                     <action selector="next" destination="7Zz-cK-14S" eventType="touchUpInside" id="1he-Hh-AP8"/>
                                 </connections>
                             </button>

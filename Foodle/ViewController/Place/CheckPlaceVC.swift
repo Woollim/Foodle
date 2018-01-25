@@ -18,10 +18,6 @@ class CheckPlaceVC: UIViewController {
         setMap(lati: 37.4003065, longi: 127.106973)
     }
     
-    @IBAction func back(_ sender: Any) {
-        performSegue(withIdentifier: "unwindTemp", sender: self)
-    }
-    
     func setMap(lati: Double, longi: Double){
         let location = CLLocationCoordinate2DMake(lati, longi)
         let region = MKCoordinateRegionMakeWithDistance(location, 10, 10)

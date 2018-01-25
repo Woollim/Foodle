@@ -11,18 +11,17 @@ import UIKit
 
 class MenuTableBaseVC: UIViewController, UITableViewDelegate{
     
+    let addCellId = "MenuAddCell"
+    
     var contentArr = [(String, String)]()
     var option: MenuOption = .size
     
     func initTableView(_ tableView: UITableView){
         tableView.delegate = self
+        tableView.register(UINib.init(nibName: addCellId, bundle: nil), forCellReuseIdentifier: addCellId)
     }
     
-    func goNext(_ data: (String, String)? = nil){ }
-    
-}
-
-extension MenuTableBeseVC{
+    func goNext(_ data: (String, String)? = nil){}
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if indexPath.row == contentArr.count{ self.goNext() }

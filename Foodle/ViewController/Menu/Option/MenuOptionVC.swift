@@ -28,5 +28,9 @@ class MenuOptionVC: MenuOptionBaseVC {
         nextVC.data = data
         present(nextVC, animated: true, completion: nil)
     }
+    
+    @IBAction func back(){
+        goBack()
+    }
 
 }

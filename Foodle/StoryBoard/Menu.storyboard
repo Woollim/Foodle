@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Tca-fc-9G8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fvx-cY-2MC">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -75,7 +75,7 @@
                                     <constraint firstAttribute="height" constant="1" id="19c-Ex-ki3"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FYE-Nf-zc1">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FYE-Nf-zc1" customClass="RedButtonShape" customModule="Foodle" customModuleProvider="target">
                                 <rect key="frame" x="176" y="504" width="128" height="48"/>
                                 <color key="backgroundColor" red="0.86274509799999999" green="0.27450980390000002" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -120,7 +120,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Je-dP-OxB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1254" y="-1574"/>
+            <point key="canvasLocation" x="2614" y="-829"/>
         </scene>
         <!--Menu Base Info2VC-->
         <scene sceneID="gLc-GB-CLF">
@@ -186,7 +186,7 @@
                                     <constraint firstAttribute="height" constant="1" id="b33-5c-Edv"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gx0-4O-u0j">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gx0-4O-u0j" customClass="RedButtonShape" customModule="Foodle" customModuleProvider="target">
                                 <rect key="frame" x="176" y="504" width="128" height="48"/>
                                 <color key="backgroundColor" red="0.86274509799999999" green="0.27450980390000002" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -197,7 +197,6 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="enter:" destination="RMV-FV-L5t" eventType="touchUpInside" id="1G0-Xh-IpI"/>
                                     <action selector="enter:" destination="yMI-UU-IIj" eventType="touchUpInside" id="our-iR-kdh"/>
                                     <segue destination="Tca-fc-9G8" kind="show" id="G5G-XM-pyH"/>
                                 </connections>
@@ -234,7 +233,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BSQ-wn-JBs" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="yMI-UU-IIj" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2078" y="-1574"/>
+            <point key="canvasLocation" x="3439" y="-829"/>
         </scene>
         <!--Menu Option StepVC-->
         <scene sceneID="HJz-y8-3uE">
@@ -329,11 +328,47 @@
                     <connections>
                         <outlet property="tableView" destination="WR7-D5-D9Y" id="8qr-90-cYd"/>
                         <outlet property="titleLabel" destination="Rj6-Me-z9B" id="eoe-wZ-QNf"/>
+                        <segue destination="WyR-Oz-Xye" kind="show" identifier="goSize" id="6jS-qE-hm2"/>
+                        <segue destination="XJQ-pK-cYd" kind="show" identifier="goCategory" id="3dC-Nm-aYi"/>
+                        <segue destination="9nY-0a-4dk" kind="show" identifier="goOption" id="8AG-S7-9wq"/>
+                        <segue destination="kLd-HX-LAk" kind="show" identifier="goFoodStuff" id="r3W-1A-9Ci"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wUe-Bp-Rzu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2978" y="-1575"/>
+            <point key="canvasLocation" x="4298" y="-829"/>
+        </scene>
+        <!--Size-->
+        <scene sceneID="Sf4-cY-Ntf">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Size" id="WyR-Oz-Xye" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gc4-Mq-jG4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5342" y="-1026"/>
+        </scene>
+        <!--Category-->
+        <scene sceneID="oLj-Z1-u2y">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Category" id="XJQ-pK-cYd" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JcL-8N-SgW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5342" y="-911"/>
+        </scene>
+        <!--Option-->
+        <scene sceneID="LPW-pp-F0s">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Option" id="9nY-0a-4dk" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sdD-0P-kc4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5343" y="-770"/>
+        </scene>
+        <!--FoodStuff-->
+        <scene sceneID="IoV-S5-x6k">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FoodStuff" id="kLd-HX-LAk" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I06-Ap-0mj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5343" y="-634"/>
         </scene>
     </scenes>
     <resources>

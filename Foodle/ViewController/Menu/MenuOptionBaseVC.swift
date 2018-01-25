@@ -11,12 +11,10 @@ import UIKit
 class MenuOptionBaseVC: MenuTableBaseVC {
     
     let cellId = "MenuDetailCell"
-    let addCellId = "MenuAddCell"
     
     override func initTableView(_ tableView: UITableView){
         super.initTableView(tableView)
         tableView.register(UINib.init(nibName: cellId, bundle: nil), forCellReuseIdentifier: cellId)
-        tableView.register(UINib.init(nibName: addCellId, bundle: nil), forCellReuseIdentifier: addCellId)
         tableView.dataSource = self
     }
 
@@ -54,6 +52,7 @@ enum MenuOption {
     case size
     case foodStuff
     case option
+    case selection
     
     func getTitle() -> String{
         switch self {
@@ -63,6 +62,8 @@ enum MenuOption {
             return "추가재료"
         case .option:
             return "옵션"
+        case .selection:
+            return "선택지"
         }
     }
     
@@ -71,9 +72,11 @@ enum MenuOption {
         case .size:
             return "MenuSizeEditView"
         case .foodStuff:
-            return "추가재료"
+            return "MenuFoodStuffEditView"
         case .option:
             return "MenuOptionEditView"
+        default:
+            return ""
         }
     }
     

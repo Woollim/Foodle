@@ -8,33 +8,28 @@
 
 import UIKit
 
-class MenuFoodStuffVC: UIViewController {
+class MenuFoodStuffVC: MenuOptionBaseVC {
 
     @IBOutlet weak var tableView: UITableView!
-    let cellId = "MenuDetailCell"
+    @IBOutlet weak var titleLabel: UILabel!
+    
+    var foodName = "오늘먹고 낼 죽는다! 덮밥"
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.register(UINib.init(nibName: cellId, bundle: nil), forCellReuseIdentifier: cellId)
-        tableView.dataSource = self
-        tableView.delegate = self
+        initTableView(tableView)
+        option = .foodStuff
+        contentArr = [("치즈 슬라이스", "500원"), ("치즈 슬라이스", "500원"), ("치즈 슬라이스", "500원"), ("치즈 슬라이스", "500원"), ("치즈 슬라이스", "500원"), ("치즈 슬라이스", "500원")]
+        titleLabel.text = "\(foodName)\n추가재료"
+    }
+    
+    override func goNext(_ data: (String, String)?) {
+        let nextVC = storyboard?.instantiateViewController(withIdentifier: option.getNextVCId()) as! MenuFoodStuffEditVC
+        present(nextVC, animated: true, completion: nil)
+    }
+    
+    @IBAction func back(){
+        goBack()
     }
 
-}
-
-extension MenuFoodStuffVC: UITableViewDataSource, UITableViewDelegate{
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath)
-        return cell
-    }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 70
-    }
-    
 }

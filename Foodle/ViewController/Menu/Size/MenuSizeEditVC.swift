@@ -27,8 +27,4 @@ class MenuSizeEditVC: UIViewController {
         goBack()
     }
     
-    @IBAction func next(){
-        goBack()
-    }
-
 }
