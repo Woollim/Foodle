@@ -8,32 +8,20 @@
 
 import UIKit
 
-class SelectionEditVC: UIViewController {
+class SelectionEditVC: MenuOptionBaseEditVC {
 
     @IBOutlet weak var selectionTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        selectionTableView.dataSource = self
-        selectionTableView.delegate = self
-        selectionTableView.register(UINib.init(nibName: "SelectionCell", bundle: nil), forCellReuseIdentifier: "SelectionCell")
-        // Do any additional setup after loading the view.
+        option = .nonAdd
+        initTableView(selectionTableView)
+        selectionTableView.allowsSelection = false
+        contentArr = [("허니브레드", ""), ("허니브레드", ""), ("허니브레드", ""), ("허니브레드", ""), ("허니브레드", "")]
+    }
+    
+    @IBAction func back(){
+        goBack()
     }
 
-}
-
-extension SelectionEditVC: UITableViewDataSource, UITableViewDelegate{
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "SelectionCell", for: indexPath) as! SelectionCell
-        return cell
-    }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 50
-    }
-    
 }

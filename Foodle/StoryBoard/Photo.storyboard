@@ -18,11 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="사진을 등록할 준비가 되었나요?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0r-qp-wAP">
-                                <rect key="frame" x="16" y="82" width="347.5" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="UQC-wg-qg8"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="사진을 등록할 준비가 되었나요?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0r-qp-wAP">
+                                <rect key="frame" x="16" y="82" width="343" height="67"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -63,10 +60,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="고객들을 한눈에 사로잡을 멋진 사진을 등록해주세요." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i99-dk-Y8h">
-                                <rect key="frame" x="16" y="168" width="343" height="48"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="SXh-tn-toc"/>
-                                </constraints>
+                                <rect key="frame" x="16" y="165" width="343" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -102,6 +96,7 @@
                             <constraint firstItem="Htv-qr-Jd3" firstAttribute="leading" secondItem="fT9-X6-ByP" secondAttribute="leading" id="cyN-DN-AEb"/>
                             <constraint firstItem="f0r-qp-wAP" firstAttribute="top" secondItem="bRk-gz-qPw" secondAttribute="bottom" constant="16" id="eMl-Xe-QjU"/>
                             <constraint firstItem="Wso-OV-3VQ" firstAttribute="centerY" secondItem="6nW-eg-rPa" secondAttribute="centerY" id="ezd-I1-EyN"/>
+                            <constraint firstItem="fT9-X6-ByP" firstAttribute="trailing" secondItem="f0r-qp-wAP" secondAttribute="trailing" constant="16" id="h8S-uk-8WA"/>
                             <constraint firstItem="fT9-X6-ByP" firstAttribute="trailing" secondItem="Htv-qr-Jd3" secondAttribute="trailing" id="uln-nE-82T"/>
                             <constraint firstItem="bRk-gz-qPw" firstAttribute="top" secondItem="Htv-qr-Jd3" secondAttribute="bottom" id="v2J-ut-4dO"/>
                             <constraint firstItem="Wso-OV-3VQ" firstAttribute="leading" secondItem="fT9-X6-ByP" secondAttribute="leading" constant="16" id="wg2-1K-S8U"/>

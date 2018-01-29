@@ -46,38 +46,3 @@ extension MenuOptionBaseVC: UITableViewDataSource{
     }
     
 }
-
-enum MenuOption {
-    
-    case size
-    case foodStuff
-    case option
-    case selection
-    
-    func getTitle() -> String{
-        switch self {
-        case .size:
-            return "사이즈"
-        case .foodStuff:
-            return "추가재료"
-        case .option:
-            return "옵션"
-        case .selection:
-            return "선택지"
-        }
-    }
-    
-    func getNextVCId() -> String{
-        switch self {
-        case .size:
-            return "MenuSizeEditView"
-        case .foodStuff:
-            return "MenuFoodStuffEditView"
-        case .option:
-            return "MenuOptionEditView"
-        default:
-            return ""
-        }
-    }
-    
-}

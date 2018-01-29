@@ -12,11 +12,11 @@ class EnterPlaceVC: UIViewController {
 
     @IBOutlet weak var addressTextField: UITextField!
     @IBOutlet weak var addressAddTextField: UITextField!
+    @IBOutlet weak var backButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
+        backButton.imageView?.tintColor = Color.red.getColor()
     }
 
 }

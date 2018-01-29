@@ -36,16 +36,27 @@
                             </label>
                         </subviews>
                     </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="geT-H7-esD">
+                        <rect key="frame" x="16" y="69" width="359" height="1"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93333333330000001" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="twL-Pr-nBf"/>
+                        </constraints>
+                    </view>
                 </subviews>
                 <constraints>
                     <constraint firstItem="vXB-0a-ra4" firstAttribute="leading" secondItem="f4k-2F-63x" secondAttribute="leadingMargin" id="7Ek-fF-PjM"/>
+                    <constraint firstItem="geT-H7-esD" firstAttribute="leading" secondItem="f4k-2F-63x" secondAttribute="leadingMargin" id="FBN-7T-aoC"/>
                     <constraint firstItem="vXB-0a-ra4" firstAttribute="centerY" secondItem="f4k-2F-63x" secondAttribute="centerY" id="IpA-xY-yuC"/>
+                    <constraint firstAttribute="trailing" secondItem="geT-H7-esD" secondAttribute="trailing" id="Mgr-Bk-UwG"/>
+                    <constraint firstAttribute="bottom" secondItem="geT-H7-esD" secondAttribute="bottom" id="dh4-yP-Fdr"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
                 <outlet property="subLabel" destination="ZtN-6v-02K" id="uV4-bt-IUJ"/>
                 <outlet property="titleLabel" destination="le2-2J-qNo" id="f3x-0p-7eL"/>
             </connections>
+            <point key="canvasLocation" x="35.5" y="54"/>
         </tableViewCell>
     </objects>
 </document>

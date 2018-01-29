@@ -18,20 +18,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gw4-Sl-dQw">
-                                <rect key="frame" x="16" y="28" width="22" height="22"/>
-                                <color key="backgroundColor" red="0.93333333330000001" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gw4-Sl-dQw" customClass="ExitButtonShape" customModule="Foodle" customModuleProvider="target">
+                                <rect key="frame" x="16" y="28" width="26" height="26"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="22" id="73B-1S-MGc"/>
-                                    <constraint firstAttribute="width" constant="22" id="sQB-27-uFJ"/>
+                                    <constraint firstAttribute="height" constant="26" id="73B-1S-MGc"/>
+                                    <constraint firstAttribute="width" constant="26" id="sQB-27-uFJ"/>
                                 </constraints>
-                                <state key="normal" image="user_enter_num_back_icon.png"/>
                                 <connections>
                                     <action selector="back" destination="cyi-I9-gH4" eventType="touchUpInside" id="oGo-WV-Ghf"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A라는 음식의 사이즈" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7xY-Dq-Kej">
-                                <rect key="frame" x="16" y="66" width="343" height="33.5"/>
+                                <rect key="frame" x="16" y="70" width="343" height="33.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -51,13 +49,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="사이즈를 수정합니다." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bcc-mH-K2l">
-                                <rect key="frame" x="16" y="115.5" width="166" height="24"/>
+                                <rect key="frame" x="16" y="119.5" width="166" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6ko-y9-yto">
-                                <rect key="frame" x="0.0" y="155.5" width="375" height="431.5"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6ko-y9-yto">
+                                <rect key="frame" x="0.0" y="159.5" width="375" height="427.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
@@ -96,58 +94,56 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cH7-7u-bdQ">
-                                <rect key="frame" x="16" y="28" width="22" height="22"/>
-                                <color key="backgroundColor" red="0.93333333330000001" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cH7-7u-bdQ" customClass="ExitButtonShape" customModule="Foodle" customModuleProvider="target">
+                                <rect key="frame" x="16" y="28" width="26" height="26"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="22" id="TJO-sy-FGb"/>
-                                    <constraint firstAttribute="width" constant="22" id="fyu-o5-eaG"/>
+                                    <constraint firstAttribute="height" constant="26" id="TJO-sy-FGb"/>
+                                    <constraint firstAttribute="width" constant="26" id="fyu-o5-eaG"/>
                                 </constraints>
-                                <state key="normal" image="user_enter_num_back_icon.png"/>
                                 <connections>
                                     <action selector="back" destination="7Zz-cK-14S" eventType="touchUpInside" id="eiI-a9-dY3"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="사이즈 이름" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZf-7A-tvG">
-                                <rect key="frame" x="16" y="131.5" width="82.5" height="21"/>
+                                <rect key="frame" x="16" y="135.5" width="82.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A라는 음식의 사이즈" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LLv-Nm-2kV">
-                                <rect key="frame" x="16" y="66" width="225.5" height="33.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="새로운 사이즈" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LLv-Nm-2kV">
+                                <rect key="frame" x="16" y="70" width="152" height="34"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="예)수제 햄버거" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="hc0-14-CKx">
-                                <rect key="frame" x="16" y="168.5" width="343" height="24"/>
+                                <rect key="frame" x="16" y="172.5" width="343" height="24"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="btF-ut-g0A">
-                                <rect key="frame" x="16" y="196.5" width="343" height="1"/>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="16" y="200.5" width="343" height="1"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93333333330000001" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="Bh2-8N-U63"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="사이즈 가격" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uB3-0L-tzx">
-                                <rect key="frame" x="16" y="229.5" width="82.5" height="21"/>
+                                <rect key="frame" x="16" y="233.5" width="82.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="$10.13" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="jIn-fJ-fHL">
-                                <rect key="frame" x="16" y="266.5" width="343" height="24"/>
+                                <rect key="frame" x="16" y="270.5" width="343" height="24"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P2O-wv-8bR">
-                                <rect key="frame" x="16" y="294.5" width="343" height="1"/>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="16" y="298.5" width="343" height="1"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93333333330000001" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="fxI-xB-KJO"/>
                                 </constraints>
@@ -205,7 +201,4 @@
             <point key="canvasLocation" x="3878" y="-657"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="user_enter_num_back_icon.png" width="256" height="256"/>
-    </resources>
 </document>

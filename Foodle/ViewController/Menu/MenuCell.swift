@@ -9,6 +9,16 @@
 import Foundation
 import UIKit
 
+class MenuTitleCell: UITableViewCell{
+    
+    @IBOutlet weak var titleLabel: UILabel!
+    
+    override func awakeFromNib() {
+        backgroundColor = Color.red.getColor()
+    }
+    
+}
+
 class MenuStepCell: UITableViewCell{
     
     @IBOutlet weak var titleLabel: UILabel!
@@ -46,6 +56,8 @@ class MenuAddCell: UITableViewCell{
     
 }
 
-class SelectionCell: UITableViewCell{
+class MenuSingleCell: UITableViewCell{
+    
+    @IBOutlet weak var titleLabel: UILabel!
     
 }

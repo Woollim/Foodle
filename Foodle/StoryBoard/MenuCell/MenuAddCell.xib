@@ -25,12 +25,11 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WVV-75-JHF">
-                        <rect key="frame" x="323" y="3" width="36" height="36"/>
-                        <color key="backgroundColor" red="0.12549019610000001" green="0.76862745099999996" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu_item_add_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="WVV-75-JHF">
+                        <rect key="frame" x="335" y="9" width="24" height="24"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="36" id="jFr-aB-KjT"/>
-                            <constraint firstAttribute="width" constant="36" id="wgn-RK-N5f"/>
+                            <constraint firstAttribute="height" constant="24" id="jFr-aB-KjT"/>
+                            <constraint firstAttribute="width" constant="24" id="wgn-RK-N5f"/>
                         </constraints>
                     </imageView>
                 </subviews>
@@ -47,4 +46,7 @@
             <point key="canvasLocation" x="51" y="54"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="menu_item_add_icon.png" width="66" height="66"/>
+    </resources>
 </document>

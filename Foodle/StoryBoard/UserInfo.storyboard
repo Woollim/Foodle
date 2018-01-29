@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XGf-ua-3uz">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,11 +15,11 @@
             <objects>
                 <viewController id="XGf-ua-3uz" customClass="UserEnterNumVC" customModule="Foodle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gJb-vb-VS6">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CcZ-FX-hOK">
-                                <rect key="frame" x="231" y="603" width="128" height="48"/>
+                                <rect key="frame" x="176" y="504" width="128" height="48"/>
                                 <color key="backgroundColor" red="1" green="0.58823529411764708" blue="0.58823529411764708" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="128" id="Itq-t4-LaY"/>
@@ -33,33 +33,21 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZCf-k8-mhE">
-                                <rect key="frame" x="16" y="28" width="22" height="22"/>
+                                <rect key="frame" x="16" y="28" width="26" height="26"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="22" id="FtC-gW-eRS"/>
-                                    <constraint firstAttribute="height" constant="22" id="GBb-r7-z5y"/>
+                                    <constraint firstAttribute="width" constant="26" id="FtC-gW-eRS"/>
+                                    <constraint firstAttribute="height" constant="26" id="GBb-r7-z5y"/>
                                 </constraints>
-                                <state key="normal" image="user_enter_num_back_icon.png"/>
+                                <state key="normal" image="exit_icon.png"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="핸드폰 번호를 확인해 주세요" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GH7-5S-GjQ">
-                                <rect key="frame" x="16" y="82" width="343" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="e4X-Qp-pwH"/>
-                                </constraints>
+                                <rect key="frame" x="16" y="86" width="288" height="67"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Foodle이 여러분께 인증번호를 전송할 수 있는 핸드폰 번호를 입력해주세요." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q8B-TQ-81m">
-                                <rect key="frame" x="16" y="154" width="343" height="64"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="64" id="nC6-Ai-qzf"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vio-Ky-BJt">
-                                <rect key="frame" x="16" y="284.5" width="343" height="98"/>
+                                <rect key="frame" x="16" y="235" width="288" height="98"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="핸드폰 번호" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPW-C8-PxK">
                                         <rect key="frame" x="0.0" y="0.0" width="86" height="21"/>
@@ -69,7 +57,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="w6I-eu-ggq">
-                                        <rect key="frame" x="0.0" y="34" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="34" width="288" height="30"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sw2-gh-jsL">
                                                 <rect key="frame" x="0.0" y="0.0" width="43" height="30"/>
@@ -87,7 +75,7 @@
                                                 </connections>
                                             </button>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="번호를 입력하세요" adjustsFontSizeToFit="NO" minimumFontSize="20" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="hd0-O9-zOI">
-                                                <rect key="frame" x="51" y="0.0" width="292" height="30"/>
+                                                <rect key="frame" x="51" y="0.0" width="237" height="30"/>
                                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
@@ -95,7 +83,7 @@
                                         </subviews>
                                     </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tl6-GL-sx1">
-                                        <rect key="frame" x="0.0" y="68" width="343" height="1"/>
+                                        <rect key="frame" x="0.0" y="68" width="288" height="1"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="jA7-TY-VUy"/>
@@ -114,6 +102,12 @@
                                     <constraint firstAttribute="trailing" secondItem="tl6-GL-sx1" secondAttribute="trailing" id="wG3-2b-sIC"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Foodle이 여러분께 인증번호를 전송할 수 있는 핸드폰 번호를 입력해주세요." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q8B-TQ-81m">
+                                <rect key="frame" x="16" y="169" width="288" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.93333333330000001" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -124,7 +118,7 @@
                             <constraint firstItem="6I1-Q5-Rjn" firstAttribute="trailing" secondItem="CcZ-FX-hOK" secondAttribute="trailing" constant="16" id="UJR-wR-tRa"/>
                             <constraint firstItem="vio-Ky-BJt" firstAttribute="leading" secondItem="6I1-Q5-Rjn" secondAttribute="leading" constant="16" id="UZp-Jr-Zje"/>
                             <constraint firstItem="GH7-5S-GjQ" firstAttribute="top" secondItem="ZCf-k8-mhE" secondAttribute="bottom" constant="32" id="XuO-KZ-rUq"/>
-                            <constraint firstItem="q8B-TQ-81m" firstAttribute="top" secondItem="GH7-5S-GjQ" secondAttribute="bottom" constant="2" id="c4c-xb-NBP"/>
+                            <constraint firstItem="q8B-TQ-81m" firstAttribute="top" secondItem="GH7-5S-GjQ" secondAttribute="bottom" constant="16" id="c4c-xb-NBP"/>
                             <constraint firstItem="ZCf-k8-mhE" firstAttribute="leading" secondItem="6I1-Q5-Rjn" secondAttribute="leading" constant="16" id="ivr-ry-h2V"/>
                             <constraint firstItem="q8B-TQ-81m" firstAttribute="leading" secondItem="6I1-Q5-Rjn" secondAttribute="leading" constant="16" id="l4c-0M-iYI"/>
                             <constraint firstItem="6I1-Q5-Rjn" firstAttribute="trailing" secondItem="GH7-5S-GjQ" secondAttribute="trailing" constant="16" id="oKZ-NJ-6c6"/>
@@ -150,11 +144,11 @@
             <objects>
                 <viewController storyboardIdentifier="UserEnterPinView" id="y8y-zR-j3j" customClass="UserEnterPinVC" customModule="Foodle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="afB-7N-hlk">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OXo-8P-gcM" customClass="RoundButtonShape" customModule="Foodle" customModuleProvider="target">
-                                <rect key="frame" x="231" y="603" width="128" height="48"/>
+                                <rect key="frame" x="176" y="504" width="128" height="48"/>
                                 <color key="backgroundColor" red="1" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="SW0-b3-8vp"/>
@@ -168,18 +162,18 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QrM-In-gDz">
-                                <rect key="frame" x="16" y="28" width="22" height="22"/>
+                                <rect key="frame" x="16" y="28" width="26" height="26"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="22" id="c2u-0o-kzA"/>
-                                    <constraint firstAttribute="width" constant="22" id="gD3-77-Uyb"/>
+                                    <constraint firstAttribute="height" constant="26" id="c2u-0o-kzA"/>
+                                    <constraint firstAttribute="width" constant="26" id="gD3-77-Uyb"/>
                                 </constraints>
-                                <state key="normal" image="user_enter_pin_back_icon.png"/>
+                                <state key="normal" image="cancel_icon.png"/>
                                 <connections>
                                     <action selector="back:" destination="y8y-zR-j3j" eventType="touchUpInside" id="j8E-Cg-Ua1"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="인증번호 입력" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ryF-id-Qvs">
-                                <rect key="frame" x="16" y="82" width="155" height="35"/>
+                                <rect key="frame" x="16" y="86" width="155" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="155" id="DYi-J5-xTB"/>
                                     <constraint firstAttribute="height" constant="35" id="XdD-45-tKe"/>
@@ -188,17 +182,8 @@
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="입력하신 핸드폰 번호로 인증번호를 발송하였습니다. 인증번호를 입력해주세요." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vN1-FK-NFf">
-                                <rect key="frame" x="16" y="119" width="343" height="64"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="64" id="ewZ-f3-Bjw"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fa6-1y-fFl">
-                                <rect key="frame" x="16" y="284.5" width="343" height="98"/>
+                                <rect key="frame" x="16" y="235" width="288" height="98"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4자리 핀 번호" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ohb-Ue-xBh">
                                         <rect key="frame" x="0.0" y="0.0" width="105" height="22"/>
@@ -208,13 +193,13 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="번호를 입력하세요" adjustsFontSizeToFit="NO" minimumFontSize="20" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="7CH-wQ-ipd">
-                                        <rect key="frame" x="0.0" y="36.5" width="343" height="24"/>
+                                        <rect key="frame" x="0.0" y="36.5" width="288" height="24"/>
                                         <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rBe-4h-Ogb">
-                                        <rect key="frame" x="0.0" y="65" width="343" height="1"/>
+                                        <rect key="frame" x="0.0" y="65" width="288" height="1"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="Rpk-iX-11T"/>
@@ -233,6 +218,12 @@
                                     <constraint firstAttribute="height" constant="98" id="pXs-nN-tFw"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="입력하신 핸드폰 번호로 인증번호를 발송하였습니다. 인증번호를 입력해주세요." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vN1-FK-NFf">
+                                <rect key="frame" x="16" y="137" width="288" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.93333333330000001" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -248,7 +239,7 @@
                             <constraint firstItem="vN1-FK-NFf" firstAttribute="leading" secondItem="mSi-Jf-FVg" secondAttribute="leading" constant="16" id="iFS-Ka-B5c"/>
                             <constraint firstItem="fa6-1y-fFl" firstAttribute="leading" secondItem="mSi-Jf-FVg" secondAttribute="leading" constant="16" id="nvD-xv-hTs"/>
                             <constraint firstItem="mSi-Jf-FVg" firstAttribute="bottom" secondItem="OXo-8P-gcM" secondAttribute="bottom" constant="16" id="sWN-7j-jK9"/>
-                            <constraint firstItem="vN1-FK-NFf" firstAttribute="top" secondItem="ryF-id-Qvs" secondAttribute="bottom" constant="2" id="ym0-Ko-gaU"/>
+                            <constraint firstItem="vN1-FK-NFf" firstAttribute="top" secondItem="ryF-id-Qvs" secondAttribute="bottom" constant="16" id="ym0-Ko-gaU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="mSi-Jf-FVg"/>
                     </view>
@@ -263,7 +254,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="user_enter_num_back_icon.png" width="256" height="256"/>
-        <image name="user_enter_pin_back_icon.png" width="256" height="256"/>
+        <image name="cancel_icon.png" width="256" height="256"/>
+        <image name="exit_icon.png" width="256" height="256"/>
     </resources>
 </document>

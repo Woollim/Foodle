@@ -19,20 +19,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fT4-MF-Gpn">
-                                <rect key="frame" x="16" y="28" width="22" height="22"/>
-                                <color key="backgroundColor" red="0.93333333330000001" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fT4-MF-Gpn" customClass="ExitButtonShape" customModule="Foodle" customModuleProvider="target">
+                                <rect key="frame" x="16" y="28" width="26" height="26"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="22" id="7cr-jz-vre"/>
-                                    <constraint firstAttribute="height" constant="22" id="Tfa-aU-taV"/>
+                                    <constraint firstAttribute="width" constant="26" id="7cr-jz-vre"/>
+                                    <constraint firstAttribute="height" constant="26" id="Tfa-aU-taV"/>
                                 </constraints>
-                                <state key="normal" image="user_enter_num_back_icon.png"/>
                                 <connections>
                                     <action selector="back" destination="Pwq-5J-zGI" eventType="touchUpInside" id="DfT-yu-Jjd"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A라는 음식의 추가재료" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Js1-gs-lKd">
-                                <rect key="frame" x="16" y="66" width="343" height="33.5"/>
+                                <rect key="frame" x="16" y="70" width="343" height="33.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -52,13 +50,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="추가재료를 수정합니다." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vzY-7Q-VqU">
-                                <rect key="frame" x="16" y="115.5" width="183" height="24"/>
+                                <rect key="frame" x="16" y="119.5" width="183" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LY2-fC-VXi">
-                                <rect key="frame" x="0.0" y="155" width="375" height="431.5"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LY2-fC-VXi">
+                                <rect key="frame" x="0.0" y="159" width="375" height="427.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
@@ -97,58 +95,56 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JfM-Hf-eyX">
-                                <rect key="frame" x="16" y="28" width="22" height="22"/>
-                                <color key="backgroundColor" red="0.93333333330000001" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JfM-Hf-eyX" customClass="ExitButtonShape" customModule="Foodle" customModuleProvider="target">
+                                <rect key="frame" x="16" y="28" width="26" height="26"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="22" id="BL7-Ub-JE8"/>
-                                    <constraint firstAttribute="height" constant="22" id="UWo-h7-2Zi"/>
+                                    <constraint firstAttribute="width" constant="26" id="BL7-Ub-JE8"/>
+                                    <constraint firstAttribute="height" constant="26" id="UWo-h7-2Zi"/>
                                 </constraints>
-                                <state key="normal" image="user_enter_num_back_icon.png"/>
                                 <connections>
                                     <action selector="back" destination="ndt-hB-66A" eventType="touchUpInside" id="ucn-Tx-Zia"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="추가재료 이름" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRx-2q-5iD">
-                                <rect key="frame" x="16" y="131.5" width="99" height="22"/>
+                                <rect key="frame" x="16" y="135.5" width="99" height="22"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="추가재료" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kOR-jI-B9s">
-                                <rect key="frame" x="16" y="66" width="97" height="34"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="새로운 추가재료" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kOR-jI-B9s">
+                                <rect key="frame" x="16" y="70" width="176" height="34"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="예)수제 햄버거" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="QQe-G1-Bn8">
-                                <rect key="frame" x="16" y="161.5" width="343" height="24"/>
+                                <rect key="frame" x="16" y="165.5" width="343" height="24"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="udT-UH-fVF">
-                                <rect key="frame" x="16" y="189.5" width="343" height="1"/>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="16" y="193.5" width="343" height="1"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93333333330000001" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="rsL-JT-uaw"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="추가재료 가격" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XDi-XP-Bgl">
-                                <rect key="frame" x="16" y="206.5" width="99" height="22"/>
+                                <rect key="frame" x="16" y="210.5" width="99" height="22"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="$10.13" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="FHj-JZ-4T6">
-                                <rect key="frame" x="16" y="236.5" width="343" height="24"/>
+                                <rect key="frame" x="16" y="240.5" width="343" height="24"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nUD-OR-sSB">
-                                <rect key="frame" x="16" y="264.5" width="343" height="1"/>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="16" y="268.5" width="343" height="1"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93333333330000001" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="wIy-dv-V2E"/>
                                 </constraints>
@@ -168,20 +164,20 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="추가재료 수량" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ry2-pJ-gD1">
-                                <rect key="frame" x="16" y="281.5" width="99" height="22"/>
+                                <rect key="frame" x="16" y="285.5" width="99" height="22"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="$10.13" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="5HN-yc-QyJ">
-                                <rect key="frame" x="16" y="311.5" width="343" height="24"/>
+                                <rect key="frame" x="16" y="315.5" width="343" height="24"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CkH-AX-4cf">
-                                <rect key="frame" x="16" y="339.5" width="343" height="1"/>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="16" y="343.5" width="343" height="1"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93333333330000001" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="IcV-Yp-UD4"/>
                                 </constraints>
@@ -228,7 +224,4 @@
             <point key="canvasLocation" x="2609" y="1820"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="user_enter_num_back_icon.png" width="256" height="256"/>
-    </resources>
 </document>

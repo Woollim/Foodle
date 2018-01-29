@@ -45,6 +45,37 @@ class RoundButtonShape: UIButton{
     
 }
 
+class ExitButtonShape: UIButton{
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        setLayout()
+    }
+    
+    func setLayout(){
+        let image = UIImage.init(named: "exit_icon")?.withRenderingMode(.alwaysTemplate)
+        setImage(image, for: .normal)
+        tintColor = Color.red.getColor()
+    }
+    
+}
+
+class CancelButtonShape: UIButton{
+    
+}
+
+class RedNavigationShape: UINavigationController{
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        navigationBar.barTintColor = Color.red.getColor()
+        navigationBar.tintColor = UIColor.white
+        navigationBar.setBackgroundImage(UIImage(), for: .default)
+        navigationBar.shadowImage = UIImage()
+    }
+    
+}
+
 enum Color{
     case red
     
