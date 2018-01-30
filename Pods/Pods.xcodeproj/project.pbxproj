@@ -7,224 +7,190 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0639FC5AB18DB5D7BDDFC199CB7F3640 /* CountryPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00165CE87A1AB5F2835757B88683F5C7 /* CountryPickerController.swift */; };
-		0BE535A0766029F151034F01872AECD3 /* NexmoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D8D89B6DC6617680840B4EB3974795 /* NexmoClient.swift */; };
-		0E9C99FAA60D1E3D9EE01491CE3D776D /* HttpRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D3C60BC005D9CA37A52D00621BE923 /* HttpRequestBuilder.swift */; };
-		0FF85A8AD81D0572607F6E57398F25CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		178D9DCEB4B94EFF523724774A479C34 /* VerifyUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC927389F4F4CE749ECC85316244882F /* VerifyUI.storyboard */; };
-		1A1322CD09AA43A74B2A762A30468B4C /* NexmoVerify-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2186A9BFFE632F60EECF114DA305BACA /* NexmoVerify-dummy.m */; };
-		1E467756F1A28C5029493E05059BA994 /* CheckResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280A62BA2D00A1644F91BB1FD8500EBA /* CheckResponse.swift */; };
-		1EB7D395B4A37236F928B8AAEFDA8B81 /* Pods-Foodle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A4FB0E7CEAE454BF4D8083769CE911 /* Pods-Foodle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25E0420CD1C0C88A34755608CD1E5DA0 /* CheckRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164251CFB7A5819531B8AC6A1D09E726 /* CheckRequest.swift */; };
-		26970C3CA5C960A026562BAE4A385056 /* NexmoVerify.h in Headers */ = {isa = PBXBuildFile; fileRef = D072DD45236F59DC2249E8F2E1CF56D0 /* NexmoVerify.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2745C5BA8891CBC258E975D6BF0BC060 /* ControlService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D55A8B761B75C534D433B3AE3D58FCB /* ControlService.swift */; };
-		2C2DC2F672552AE15D3BE24E44823975 /* VerifyUIDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E82D70FB6021B1E64F9BB43063FBC09 /* VerifyUIDelegate.swift */; };
-		2C87E7F3FF3F045B0D3FDD11D0C6F301 /* TokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC4CCBEFCD3E9A5CEE4F34BEC90270F /* TokenResponse.swift */; };
-		2F6D73DE6DB35A3AAD90DE77852C4B4D /* SDKLogoutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A2F71BC41DE5EFDC4236C6F527FE4 /* SDKLogoutService.swift */; };
-		2F866DB94715AEF9D76E71ED91AB77C0 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586521B7A3B55ABC9569600454C9B3AB /* SearchResponse.swift */; };
-		3011D79B7237AB7CB6135416A5D36D42 /* LogoutRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1FD19A9E9964BEF795229501688C48 /* LogoutRequest.swift */; };
-		34461A634EA35E1689AB0401B4BF0E84 /* ControlRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E355631C5F9609C3DEBB5D652851BA /* ControlRequest.swift */; };
-		35C8FA913A07119472537A8378B91061 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF5C8D8FACCC60E50911D5E2401E745 /* Countries.swift */; };
-		405B1E51DF4982D37DAF04C7DEECC5E4 /* NexmoVerify-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F756DC2C0943B6FD05876E2CEDF20A /* NexmoVerify-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4081EEE4E462CDCA22880231B5F60443 /* SDKControlService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1C034D535EA5C78F191296F2E68570 /* SDKControlService.swift */; };
-		4A4C114DD76F3330914298D928F60FD9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D1E6E43E670EA2D9F34B42CE43C8B1A /* Info.plist */; };
-		4B1B75454B059588E04A78B68ABEA181 /* RAReorderableLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1399B536D66A66A09EAEE315BC2CBDD8 /* RAReorderableLayout.swift */; };
-		4E5388854C306CCE3CCD4FD9FBE3D96C /* SDKRequestSigner.h in Headers */ = {isa = PBXBuildFile; fileRef = C902667FD5B45025E75ED3846BE9ED33 /* SDKRequestSigner.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F3D39A541B2D7FB7CB3AC493B929FCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		51696D4424F10F0F6B37E6FF1EB4F992 /* ServiceExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCF90173E88C8042705DF401FAA508E /* ServiceExecutor.swift */; };
-		51E9EA1521D7BA5BEB607AD23F34A353 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D9FE8538CEEAD8FCAEFD6889D0DD4 /* Logger.swift */; };
-		5346702603578802530F24A94ADB5A31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		56DBEFD738329251E1DCDE6815D5B06F /* CountryPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8181D1A7827583F96DDF30DCDE263A /* CountryPickerDelegate.swift */; };
-		68A4B805CFBBCFE112297DACCB8CCDD0 /* LogoutResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455B47B59E3369CD4711DA2DAF23B825 /* LogoutResponse.swift */; };
-		68B829F4102E6E9FB3BBF035227D537E /* VerifyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8E47258F8F9BB25B0BA91CFDC65A4B /* VerifyError.swift */; };
-		6D0482E3BEB637CF8567CEC2558AA848 /* Countries.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5C8700B384A163DADB4436BC0B3454E /* Countries.plist */; };
-		6D06E6733E6E4A1F6889AFD9AB5491FD /* SDKVerifyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBCA8BCE34E0D53178B3651C65C1C89 /* SDKVerifyService.swift */; };
-		6DDA1AE74B619A83B2CB368F2F2A90C4 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478F17EE5F6ED15731707914C706C0D /* BaseResponse.swift */; };
-		703E3AC822B6020865CE54945220B76C /* DevicePropertyAccessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 592CFB51792119B69A9C170F97F8F848 /* DevicePropertyAccessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71A2531D32D83BE8BB93188832971033 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B278D015FE31C7672E95A9759B6273 /* SearchService.swift */; };
-		72EE809AEBA786BC36D1D887BACC7258 /* ResponseCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9892BE4BC277A52D266E9B96F9069F00 /* ResponseCode.swift */; };
-		73A122C70F17E5291DF67DFE836B8F20 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C48067373652E6D87C6517A5B302E9 /* Config.swift */; };
-		76170ADD42B510B39866ED7A1AF23393 /* VerifyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92D48D992F28E867ED8292A33B4F54A /* VerifyTask.swift */; };
-		80EA4AAE16CA5445712B104A0AE1AF3C /* LogoutResponseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEDEA21FD56111487AC6026E652BBFB /* LogoutResponseFactory.swift */; };
-		828EAA89CA0909A34801C7BD02AECD9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		8395CF3301F943E4B790CC89E3850530 /* CheckReponseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E559305F8ED9F72101ACBBD3158E4984 /* CheckReponseFactory.swift */; };
-		8396468AB30A636C0DFB50C5DEF61523 /* RequestSigner.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B295B47F99E4012689565419F62D51F /* RequestSigner.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9037C29DF9F42C863913E021397A85C2 /* Data+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E13ECF9D80FBB8148595E6023C88E8 /* Data+Helper.swift */; };
-		90BB6442C255B7E035B1CBA63B261F45 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F57C2EACD1762D0506D9B273519A7EA /* HttpRequest.swift */; };
-		99B553AE2A37D153C01D89993FDB0834 /* SDKProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE251B31D67EE8FADF2C9AC9EE1EDC5B /* SDKProperties.plist */; };
-		9A501FF469D44CED381F119B63F6E96D /* VerifyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D35141710F0386F9B079422C0C8F9E /* VerifyService.swift */; };
-		9B67BB60BB8BAB9E64D31E28B0D8B43D /* Pulley-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 481451093436841403C5F9F1215D3705 /* Pulley-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DC33583B62811A3A85305AFE51881CC /* PulleyPassthroughScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9A51E0F36F730E76E5CCFD8ED84C6A /* PulleyPassthroughScrollView.swift */; };
-		9E3F44BB4976628E776F24FE80527966 /* PulleyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF44FF727625EDD884795E93B3D219E9 /* PulleyViewController.swift */; };
-		A19344D2563490C2C250582B49704C09 /* HttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15DFE47EA61A7D5046D745F6E580E44 /* HttpResponse.swift */; };
-		A941CBEBCA9DD8C4526449151A3148CB /* NexmoRequestSigning.h in Headers */ = {isa = PBXBuildFile; fileRef = E9A9D284D0FD4565F293AE267C22971D /* NexmoRequestSigning.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0357ED262DEBC4C3FA83A3805ECA9FA /* RAReorderableLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B10DB8B9464FB2EF3D7FBE9919C872C5 /* RAReorderableLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B36088D03B63F7F4B68D6CDBE93482E3 /* UserStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8BC6B1D4811F09900590D83317A7DC /* UserStatus.swift */; };
-		C13A5E2BEA68DD788F64B06AD92B3E68 /* VerifyUIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1005CA80B5FD9E58C018C24F32F1AFE6 /* VerifyUIController.swift */; };
-		C2D05EC0282FAE66A033086C1F6F5D69 /* UIView+constrainToParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30ECEFCF4A55C49B272866E633E9D5D /* UIView+constrainToParent.swift */; };
-		C3F706AE3E09BFEBF1C755E4A31E60E3 /* NexmoDeviceProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 82D3F359850D2098666CE51DC7DF3098 /* NexmoDeviceProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C776DA76998800FD291D71F967C52494 /* SDKSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C519C6C3D5ABC55CFA6EAF85A20F5E2 /* SDKSearchService.swift */; };
-		C91FFA2EAC0CCCD0C174A1144EEDA33A /* ControlResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612E9E4BC9AA88EF3A234A4AAC3A12FE /* ControlResponse.swift */; };
-		CECEDC10093254BFEF4464ACFBE8FA9C /* CheckService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B86CC07E144465565A2F15B637D354 /* CheckService.swift */; };
-		D40B581798ACF498246F0A586C4B29E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		D4CF290BA4D4CCC5DDA56C894305781C /* SearchResponseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094A9C341ED88C205C27FEF056C5A770 /* SearchResponseFactory.swift */; };
-		D4DB91C98069C04B59244128D15B92DF /* SearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56147527E5C4E4A172E46F26F9FAF220 /* SearchRequest.swift */; };
-		D6D761CCE29280874F01B736DC1C7AFA /* VerifyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC157F376AA21B7E1F80E78A9C875F38 /* VerifyClient.swift */; };
-		E016160D8852BBF94E491DD5CB274392 /* RAReorderableLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD041C391536D273C5F9E655290BE76 /* RAReorderableLayout-dummy.m */; };
-		E0B6FF9AF54AB63DB61824EC34423738 /* SDKDeviceProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D4B5D2207DE6399097E5AA44875308 /* SDKDeviceProperties.m */; };
-		E2ABE13777506C5A85677820810F5FFB /* ResponseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47275579F568AE1A5036164E0792DE2 /* ResponseFactory.swift */; };
-		E675E6F432A1C084FD3803E1EAF3568D /* VerifyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A09871CA868D66DF02F546D6236318F /* VerifyResponse.swift */; };
-		E69E07C27B2F3E11ABCE759AFD5EF47A /* SDKCheckService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD5BAB3928E68A0803BC5160A696001 /* SDKCheckService.swift */; };
-		E9E1BFFAC6A59A84D6E454A7360585C7 /* VerifyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836ADD79EDA0C2797A152BD553B73CE9 /* VerifyRequest.swift */; };
-		EF81AD8F2D600BC008253EF26AB73157 /* LogoutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FB8A769F187699BA74A62542A08107 /* LogoutService.swift */; };
-		F16AF79695ED8421E37D6DC0A0E7CBD5 /* VerifyResponseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E637240945E406B2550A081F916A59 /* VerifyResponseFactory.swift */; };
-		F7B32703F2B91846C288FFE2B8A7321C /* ControlResponseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3628CFB3A8590B82B1D64F6F7BE0C4CB /* ControlResponseFactory.swift */; };
-		F871D61F75F61154239C33FE01A60067 /* Pods-Foodle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CC5ACDC793A95842BC6740F7201817 /* Pods-Foodle-dummy.m */; };
-		FBB9D732AE6A4AD687AEF9AC1198772C /* SDKRequestSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = 8868232BCF0781F364E814883EFB311D /* SDKRequestSigner.m */; };
-		FC9060B7CFEB763170F7BD97A74B86D0 /* Pulley-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCF70EE2EBE878C76BE232B4654E613 /* Pulley-dummy.m */; };
-		FE1C850A88B717E6A411D87BAB186DA8 /* SDKDeviceProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = D592B67AB797288A31F6AECA1A54987C /* SDKDeviceProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0639FC5AB18DB5D7BDDFC199CB7F3640 /* CountryPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7428E1E18C52A3F1A8B31E98B851E0D /* CountryPickerController.swift */; };
+		0BE535A0766029F151034F01872AECD3 /* NexmoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE8828B7B919680393BFC0CF2E35F9F /* NexmoClient.swift */; };
+		0E9C99FAA60D1E3D9EE01491CE3D776D /* HttpRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC02BD13F4D341217D862B3D990AF3 /* HttpRequestBuilder.swift */; };
+		178D9DCEB4B94EFF523724774A479C34 /* VerifyUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166ECADD009BA3B282E69C6B1BFFAA52 /* VerifyUI.storyboard */; };
+		1A1322CD09AA43A74B2A762A30468B4C /* NexmoVerify-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3DD41EF6B1A359E11E1FDA407192D2 /* NexmoVerify-dummy.m */; };
+		1E467756F1A28C5029493E05059BA994 /* CheckResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F77B1687C58EDF81500FA56CF6AD2AA /* CheckResponse.swift */; };
+		25E0420CD1C0C88A34755608CD1E5DA0 /* CheckRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E7D1FBC2B9306B56AECA41AF850858 /* CheckRequest.swift */; };
+		26970C3CA5C960A026562BAE4A385056 /* NexmoVerify.h in Headers */ = {isa = PBXBuildFile; fileRef = FCCDF21431B122DFEE2399356F28C4A2 /* NexmoVerify.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2745C5BA8891CBC258E975D6BF0BC060 /* ControlService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54735CDE4307FBF726AA6F06E498044 /* ControlService.swift */; };
+		2C2DC2F672552AE15D3BE24E44823975 /* VerifyUIDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3710C7D034C87C7A65B1EDA0128ECE9C /* VerifyUIDelegate.swift */; };
+		2C87E7F3FF3F045B0D3FDD11D0C6F301 /* TokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9487ACDF69ABE4DBE385C1768DFDA00C /* TokenResponse.swift */; };
+		2F6D73DE6DB35A3AAD90DE77852C4B4D /* SDKLogoutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8831412B5E38E7682DB9F2292579DD7 /* SDKLogoutService.swift */; };
+		2F866DB94715AEF9D76E71ED91AB77C0 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A89978FE56E219195B759B73C6AC36C /* SearchResponse.swift */; };
+		3011D79B7237AB7CB6135416A5D36D42 /* LogoutRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88501C4A5F72B59B89DBE12E8EFECE77 /* LogoutRequest.swift */; };
+		34461A634EA35E1689AB0401B4BF0E84 /* ControlRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC184B8BA411A950ECAC37EB7C82EC91 /* ControlRequest.swift */; };
+		35C8FA913A07119472537A8378B91061 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535BF84EDE541978975304F749DC86F8 /* Countries.swift */; };
+		405B1E51DF4982D37DAF04C7DEECC5E4 /* NexmoVerify-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA9003E33DDC00C9C6A2122DF823BD8 /* NexmoVerify-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4081EEE4E462CDCA22880231B5F60443 /* SDKControlService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF80ECEF4F5DBEBD4DB6575757340BC2 /* SDKControlService.swift */; };
+		445501DD48ECAB3B16D1E2AB66048065 /* Pods-Foodle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A4FB0E7CEAE454BF4D8083769CE911 /* Pods-Foodle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47428C3BF387A5F1C3E9F48BAF534BBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4A4C114DD76F3330914298D928F60FD9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 822899345AE47CA622F0B214982E9F22 /* Info.plist */; };
+		4E5388854C306CCE3CCD4FD9FBE3D96C /* SDKRequestSigner.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BD049D7BD11EF22EFBE01F11FD65A5 /* SDKRequestSigner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51696D4424F10F0F6B37E6FF1EB4F992 /* ServiceExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0BEFAF890FC862D2D093D7DE78B79 /* ServiceExecutor.swift */; };
+		51E9EA1521D7BA5BEB607AD23F34A353 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0E6152577C269491AD0CDE794C5B7D /* Logger.swift */; };
+		5346702603578802530F24A94ADB5A31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		56DBEFD738329251E1DCDE6815D5B06F /* CountryPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABA187762DEBDA6DF94CE079964BEED /* CountryPickerDelegate.swift */; };
+		68A4B805CFBBCFE112297DACCB8CCDD0 /* LogoutResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090D168D8F175004C145DC0F5F81BA47 /* LogoutResponse.swift */; };
+		68B829F4102E6E9FB3BBF035227D537E /* VerifyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD40F7FC748C26B48CC001DFE4F12CB1 /* VerifyError.swift */; };
+		6D0482E3BEB637CF8567CEC2558AA848 /* Countries.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0FDAA0684537793BB44CA9ADC2BD3941 /* Countries.plist */; };
+		6D06E6733E6E4A1F6889AFD9AB5491FD /* SDKVerifyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6564FE0E5B30537F175865729FF72B /* SDKVerifyService.swift */; };
+		6DDA1AE74B619A83B2CB368F2F2A90C4 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87821B59D2950A65CA40E187E93B9354 /* BaseResponse.swift */; };
+		703E3AC822B6020865CE54945220B76C /* DevicePropertyAccessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EA685855B04A29D429B4DE9DF573EDA /* DevicePropertyAccessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71A2531D32D83BE8BB93188832971033 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E1756F05B73D307D86ADCDF6AA1B4 /* SearchService.swift */; };
+		72EE809AEBA786BC36D1D887BACC7258 /* ResponseCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2237316EE8D5B48FCE95B796466821E /* ResponseCode.swift */; };
+		73A122C70F17E5291DF67DFE836B8F20 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C393DBFA65B8B3A5A812758AD00F6AA0 /* Config.swift */; };
+		76170ADD42B510B39866ED7A1AF23393 /* VerifyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8049941B6706534678EAA7D3EF0A11C9 /* VerifyTask.swift */; };
+		7B5E21067014836E820E168BC0107A71 /* Pods-Foodle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CC5ACDC793A95842BC6740F7201817 /* Pods-Foodle-dummy.m */; };
+		80EA4AAE16CA5445712B104A0AE1AF3C /* LogoutResponseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D593E502246D742E010D114B36E2785 /* LogoutResponseFactory.swift */; };
+		8120719D00D2DAC9E0576A62D96BB900 /* RAReorderableLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9793142BAC4C47129931B74146FBEAE0 /* RAReorderableLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8395CF3301F943E4B790CC89E3850530 /* CheckReponseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A55B1363F6E75459606758CE78F59FA /* CheckReponseFactory.swift */; };
+		8396468AB30A636C0DFB50C5DEF61523 /* RequestSigner.h in Headers */ = {isa = PBXBuildFile; fileRef = 99E72BB8966088939B0246B4F68A211B /* RequestSigner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9037C29DF9F42C863913E021397A85C2 /* Data+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB51465DE68B58EEF55E622BCD29673F /* Data+Helper.swift */; };
+		90BB6442C255B7E035B1CBA63B261F45 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513FBBEF67EE782884A32603833284E /* HttpRequest.swift */; };
+		93B6A32C4CEFD3A3B8F89BE2B819A83D /* RAReorderableLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865BFE6FFA2432486F72899BB523F6DD /* RAReorderableLayout.swift */; };
+		99B015F711C4E9D1AA0094154F89E6A8 /* RAReorderableLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B89FC0FB8330F961EEFA2C7A308E8E /* RAReorderableLayout-dummy.m */; };
+		99B553AE2A37D153C01D89993FDB0834 /* SDKProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CFA2EA7A87519A456C96E3FB08311FE /* SDKProperties.plist */; };
+		9A501FF469D44CED381F119B63F6E96D /* VerifyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A4EF9520931B3AA9EDEF2943628F4 /* VerifyService.swift */; };
+		9DA344562540AD5B59BE6B225C4AA320 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A19344D2563490C2C250582B49704C09 /* HttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E9C5180909DD7061E540345C326F8E /* HttpResponse.swift */; };
+		A941CBEBCA9DD8C4526449151A3148CB /* NexmoRequestSigning.h in Headers */ = {isa = PBXBuildFile; fileRef = 12238E8B25C1BE359E0A7E197A0B4F55 /* NexmoRequestSigning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B36088D03B63F7F4B68D6CDBE93482E3 /* UserStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB847CDB2935ABA55A28336CF12EA6B /* UserStatus.swift */; };
+		C13A5E2BEA68DD788F64B06AD92B3E68 /* VerifyUIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C36CA9A78E28DE0E177CD068BDDB35 /* VerifyUIController.swift */; };
+		C3F706AE3E09BFEBF1C755E4A31E60E3 /* NexmoDeviceProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = B7312A22A17525B48DDEAA345697EE2C /* NexmoDeviceProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C776DA76998800FD291D71F967C52494 /* SDKSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D5895E9A716F7BD56627CB28FF3A89 /* SDKSearchService.swift */; };
+		C91FFA2EAC0CCCD0C174A1144EEDA33A /* ControlResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C103015BA8AB7E2B9BD7761B8FF0272 /* ControlResponse.swift */; };
+		CECEDC10093254BFEF4464ACFBE8FA9C /* CheckService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9045C5B8DA176FF24C3AE9A60B56C6DB /* CheckService.swift */; };
+		D4CF290BA4D4CCC5DDA56C894305781C /* SearchResponseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5694C2D7D884FB869D1A9410AC4CE6F9 /* SearchResponseFactory.swift */; };
+		D4DB91C98069C04B59244128D15B92DF /* SearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0DD4C7B6EC5A1F68F9B3AE29875F49 /* SearchRequest.swift */; };
+		D6D761CCE29280874F01B736DC1C7AFA /* VerifyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC1B262504FB49DDC6D37E1E20B710 /* VerifyClient.swift */; };
+		E0B6FF9AF54AB63DB61824EC34423738 /* SDKDeviceProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 357E1BC527C7EB783CA1E0B2BCC482F8 /* SDKDeviceProperties.m */; };
+		E2ABE13777506C5A85677820810F5FFB /* ResponseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62034C2C00B60831B89FEE667B185E6C /* ResponseFactory.swift */; };
+		E675E6F432A1C084FD3803E1EAF3568D /* VerifyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C102C906AE966EBFC344CBCAD2597336 /* VerifyResponse.swift */; };
+		E69E07C27B2F3E11ABCE759AFD5EF47A /* SDKCheckService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CFA014073EBB78AA4615B0675998AC /* SDKCheckService.swift */; };
+		E9E1BFFAC6A59A84D6E454A7360585C7 /* VerifyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A67A3CAE8239CDAF1770076A967C7C5 /* VerifyRequest.swift */; };
+		EF81AD8F2D600BC008253EF26AB73157 /* LogoutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6938FDAA319324681BD46C97069F5757 /* LogoutService.swift */; };
+		F16AF79695ED8421E37D6DC0A0E7CBD5 /* VerifyResponseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD4873020B970E6EA11843A3CE871FA /* VerifyResponseFactory.swift */; };
+		F7B32703F2B91846C288FFE2B8A7321C /* ControlResponseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A10D419F2B36AF33A0D9E6ACFC970C6 /* ControlResponseFactory.swift */; };
+		FBB9D732AE6A4AD687AEF9AC1198772C /* SDKRequestSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF3D90A1E0BACE80F127B1D037478A1 /* SDKRequestSigner.m */; };
+		FE1C850A88B717E6A411D87BAB186DA8 /* SDKDeviceProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = A1C228D570E5C2C21B735893B0BD8A32 /* SDKDeviceProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4ACE432897E0347659DBF89590DDF431 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 32358395716DEC84DEADBD10AD6E8111;
-			remoteInfo = Pulley;
-		};
-		4B3C434EA0286B4043141DEC7FE23627 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4DAFF128639CE18FCDCD3F54103C10E9;
-			remoteInfo = RAReorderableLayout;
-		};
-		D50B528750A539E6C93157B65B5F1AE2 /* PBXContainerItemProxy */ = {
+		A856A961A18AC3CEFC8B0BC4079B93A6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5E96A42180F684E58CA88D45A3F1F354;
 			remoteInfo = NexmoVerify;
 		};
+		FAC0D133A2083DCF25D4431364FD515A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D454C7E8D143AD723A016B419BFB8BC7;
+			remoteInfo = RAReorderableLayout;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00165CE87A1AB5F2835757B88683F5C7 /* CountryPickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryPickerController.swift; path = VerifySDK/CountryPickerController.swift; sourceTree = "<group>"; };
-		00A8CBF28748E3A7C0DB98112C17553B /* RAReorderableLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RAReorderableLayout.modulemap; sourceTree = "<group>"; };
-		03E355631C5F9609C3DEBB5D652851BA /* ControlRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlRequest.swift; path = VerifySDK/ControlRequest.swift; sourceTree = "<group>"; };
-		044D9FE8538CEEAD8FCAEFD6889D0DD4 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = VerifySDK/Logger.swift; sourceTree = "<group>"; };
-		094A9C341ED88C205C27FEF056C5A770 /* SearchResponseFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchResponseFactory.swift; path = VerifySDK/SearchResponseFactory.swift; sourceTree = "<group>"; };
-		0CBCA8BCE34E0D53178B3651C65C1C89 /* SDKVerifyService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SDKVerifyService.swift; path = VerifySDK/SDKVerifyService.swift; sourceTree = "<group>"; };
-		1005CA80B5FD9E58C018C24F32F1AFE6 /* VerifyUIController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerifyUIController.swift; path = VerifySDK/VerifyUIController.swift; sourceTree = "<group>"; };
-		1399B536D66A66A09EAEE315BC2CBDD8 /* RAReorderableLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAReorderableLayout.swift; path = RAReorderableLayout/RAReorderableLayout.swift; sourceTree = "<group>"; };
-		164251CFB7A5819531B8AC6A1D09E726 /* CheckRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckRequest.swift; path = VerifySDK/CheckRequest.swift; sourceTree = "<group>"; };
-		1C1C034D535EA5C78F191296F2E68570 /* SDKControlService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SDKControlService.swift; path = VerifySDK/SDKControlService.swift; sourceTree = "<group>"; };
-		2186A9BFFE632F60EECF114DA305BACA /* NexmoVerify-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NexmoVerify-dummy.m"; sourceTree = "<group>"; };
-		280A62BA2D00A1644F91BB1FD8500EBA /* CheckResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckResponse.swift; path = VerifySDK/CheckResponse.swift; sourceTree = "<group>"; };
-		29E13ECF9D80FBB8148595E6023C88E8 /* Data+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Helper.swift"; path = "VerifySDK/Data+Helper.swift"; sourceTree = "<group>"; };
-		2A8181D1A7827583F96DDF30DCDE263A /* CountryPickerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryPickerDelegate.swift; path = VerifySDK/CountryPickerDelegate.swift; sourceTree = "<group>"; };
-		2E82D70FB6021B1E64F9BB43063FBC09 /* VerifyUIDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerifyUIDelegate.swift; path = VerifySDK/VerifyUIDelegate.swift; sourceTree = "<group>"; };
-		359D68F2186CDBD5CD95BCEE9AE6FC2A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3628CFB3A8590B82B1D64F6F7BE0C4CB /* ControlResponseFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlResponseFactory.swift; path = VerifySDK/ControlResponseFactory.swift; sourceTree = "<group>"; };
-		3A09871CA868D66DF02F546D6236318F /* VerifyResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerifyResponse.swift; path = VerifySDK/VerifyResponse.swift; sourceTree = "<group>"; };
+		090D168D8F175004C145DC0F5F81BA47 /* LogoutResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogoutResponse.swift; path = VerifySDK/LogoutResponse.swift; sourceTree = "<group>"; };
+		0A10D419F2B36AF33A0D9E6ACFC970C6 /* ControlResponseFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlResponseFactory.swift; path = VerifySDK/ControlResponseFactory.swift; sourceTree = "<group>"; };
+		0AA9003E33DDC00C9C6A2122DF823BD8 /* NexmoVerify-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NexmoVerify-umbrella.h"; sourceTree = "<group>"; };
+		0D6FDC9DC28757F55EA40FDB503E8702 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FDAA0684537793BB44CA9ADC2BD3941 /* Countries.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Countries.plist; path = VerifySDK/Countries.plist; sourceTree = "<group>"; };
+		12238E8B25C1BE359E0A7E197A0B4F55 /* NexmoRequestSigning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NexmoRequestSigning.h; path = RequestSigning/NexmoRequestSigning.h; sourceTree = "<group>"; };
+		166ECADD009BA3B282E69C6B1BFFAA52 /* VerifyUI.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = VerifyUI.storyboard; path = VerifySDK/VerifyUI.storyboard; sourceTree = "<group>"; };
+		1A1A4EF9520931B3AA9EDEF2943628F4 /* VerifyService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerifyService.swift; path = VerifySDK/VerifyService.swift; sourceTree = "<group>"; };
+		1BB3A7E4E1C1AA1047402DA93F850874 /* NexmoVerify.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NexmoVerify.xcconfig; sourceTree = "<group>"; };
+		1BD4873020B970E6EA11843A3CE871FA /* VerifyResponseFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerifyResponseFactory.swift; path = VerifySDK/VerifyResponseFactory.swift; sourceTree = "<group>"; };
+		24BD049D7BD11EF22EFBE01F11FD65A5 /* SDKRequestSigner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDKRequestSigner.h; path = RequestSigning/SDKRequestSigner.h; sourceTree = "<group>"; };
+		2C103015BA8AB7E2B9BD7761B8FF0272 /* ControlResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlResponse.swift; path = VerifySDK/ControlResponse.swift; sourceTree = "<group>"; };
+		2D593E502246D742E010D114B36E2785 /* LogoutResponseFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogoutResponseFactory.swift; path = VerifySDK/LogoutResponseFactory.swift; sourceTree = "<group>"; };
+		30A89AA3FE8E5BB9335889563692DADB /* RAReorderableLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAReorderableLayout-prefix.pch"; sourceTree = "<group>"; };
+		357E1BC527C7EB783CA1E0B2BCC482F8 /* SDKDeviceProperties.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDKDeviceProperties.m; path = DeviceProperties/SDKDeviceProperties.m; sourceTree = "<group>"; };
+		35D5895E9A716F7BD56627CB28FF3A89 /* SDKSearchService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SDKSearchService.swift; path = VerifySDK/SDKSearchService.swift; sourceTree = "<group>"; };
+		3710C7D034C87C7A65B1EDA0128ECE9C /* VerifyUIDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerifyUIDelegate.swift; path = VerifySDK/VerifyUIDelegate.swift; sourceTree = "<group>"; };
+		39CFA014073EBB78AA4615B0675998AC /* SDKCheckService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SDKCheckService.swift; path = VerifySDK/SDKCheckService.swift; sourceTree = "<group>"; };
+		3A55B1363F6E75459606758CE78F59FA /* CheckReponseFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckReponseFactory.swift; path = VerifySDK/CheckReponseFactory.swift; sourceTree = "<group>"; };
+		3B5072A539D1AF62000EDA3A157933CE /* RAReorderableLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAReorderableLayout.xcconfig; sourceTree = "<group>"; };
+		3CFA2EA7A87519A456C96E3FB08311FE /* SDKProperties.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = SDKProperties.plist; path = VerifySDK/SDKProperties.plist; sourceTree = "<group>"; };
+		41E9C5180909DD7061E540345C326F8E /* HttpResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpResponse.swift; path = VerifySDK/HttpResponse.swift; sourceTree = "<group>"; };
 		426167275A715AC40504A1B90EE4246B /* Pods-Foodle-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Foodle-acknowledgements.plist"; sourceTree = "<group>"; };
-		42D3C60BC005D9CA37A52D00621BE923 /* HttpRequestBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpRequestBuilder.swift; path = VerifySDK/HttpRequestBuilder.swift; sourceTree = "<group>"; };
-		455B47B59E3369CD4711DA2DAF23B825 /* LogoutResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogoutResponse.swift; path = VerifySDK/LogoutResponse.swift; sourceTree = "<group>"; };
-		481451093436841403C5F9F1215D3705 /* Pulley-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pulley-umbrella.h"; sourceTree = "<group>"; };
-		4CA7C2FAD06153CAB0CB51EE849EB57D /* NexmoVerify.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NexmoVerify.modulemap; sourceTree = "<group>"; };
-		4D55A8B761B75C534D433B3AE3D58FCB /* ControlService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlService.swift; path = VerifySDK/ControlService.swift; sourceTree = "<group>"; };
-		4F8E47258F8F9BB25B0BA91CFDC65A4B /* VerifyError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerifyError.swift; path = VerifySDK/VerifyError.swift; sourceTree = "<group>"; };
-		5017DDE33CEA44197177F02A0C5AD1EF /* RAReorderableLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAReorderableLayout-prefix.pch"; sourceTree = "<group>"; };
+		4A67A3CAE8239CDAF1770076A967C7C5 /* VerifyRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerifyRequest.swift; path = VerifySDK/VerifyRequest.swift; sourceTree = "<group>"; };
+		4A89978FE56E219195B759B73C6AC36C /* SearchResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchResponse.swift; path = VerifySDK/SearchResponse.swift; sourceTree = "<group>"; };
+		535BF84EDE541978975304F749DC86F8 /* Countries.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Countries.swift; path = VerifySDK/Countries.swift; sourceTree = "<group>"; };
 		53BFDBDB28F2B01B8F2348949BB67821 /* Pods-Foodle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Foodle.debug.xcconfig"; sourceTree = "<group>"; };
-		55F756DC2C0943B6FD05876E2CEDF20A /* NexmoVerify-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NexmoVerify-umbrella.h"; sourceTree = "<group>"; };
-		56147527E5C4E4A172E46F26F9FAF220 /* SearchRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchRequest.swift; path = VerifySDK/SearchRequest.swift; sourceTree = "<group>"; };
-		56D8D89B6DC6617680840B4EB3974795 /* NexmoClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NexmoClient.swift; path = VerifySDK/NexmoClient.swift; sourceTree = "<group>"; };
-		586521B7A3B55ABC9569600454C9B3AB /* SearchResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchResponse.swift; path = VerifySDK/SearchResponse.swift; sourceTree = "<group>"; };
-		592CFB51792119B69A9C170F97F8F848 /* DevicePropertyAccessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DevicePropertyAccessor.h; path = DeviceProperties/DevicePropertyAccessor.h; sourceTree = "<group>"; };
-		5B295B47F99E4012689565419F62D51F /* RequestSigner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RequestSigner.h; path = RequestSigning/RequestSigner.h; sourceTree = "<group>"; };
-		5BC4CCBEFCD3E9A5CEE4F34BEC90270F /* TokenResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokenResponse.swift; path = VerifySDK/TokenResponse.swift; sourceTree = "<group>"; };
-		5C519C6C3D5ABC55CFA6EAF85A20F5E2 /* SDKSearchService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SDKSearchService.swift; path = VerifySDK/SDKSearchService.swift; sourceTree = "<group>"; };
-		612E9E4BC9AA88EF3A234A4AAC3A12FE /* ControlResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlResponse.swift; path = VerifySDK/ControlResponse.swift; sourceTree = "<group>"; };
+		5513FBBEF67EE782884A32603833284E /* HttpRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpRequest.swift; path = VerifySDK/HttpRequest.swift; sourceTree = "<group>"; };
+		5694C2D7D884FB869D1A9410AC4CE6F9 /* SearchResponseFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchResponseFactory.swift; path = VerifySDK/SearchResponseFactory.swift; sourceTree = "<group>"; };
+		5CB847CDB2935ABA55A28336CF12EA6B /* UserStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserStatus.swift; path = VerifySDK/UserStatus.swift; sourceTree = "<group>"; };
+		5DF3D90A1E0BACE80F127B1D037478A1 /* SDKRequestSigner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDKRequestSigner.m; path = RequestSigning/SDKRequestSigner.m; sourceTree = "<group>"; };
+		5EA685855B04A29D429B4DE9DF573EDA /* DevicePropertyAccessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DevicePropertyAccessor.h; path = DeviceProperties/DevicePropertyAccessor.h; sourceTree = "<group>"; };
+		5EE8828B7B919680393BFC0CF2E35F9F /* NexmoClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NexmoClient.swift; path = VerifySDK/NexmoClient.swift; sourceTree = "<group>"; };
+		5F0E6152577C269491AD0CDE794C5B7D /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = VerifySDK/Logger.swift; sourceTree = "<group>"; };
+		5F77B1687C58EDF81500FA56CF6AD2AA /* CheckResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckResponse.swift; path = VerifySDK/CheckResponse.swift; sourceTree = "<group>"; };
 		61C43AD19CB79046BE17539ABC96799F /* Pods-Foodle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Foodle.modulemap"; sourceTree = "<group>"; };
-		6DD5BAB3928E68A0803BC5160A696001 /* SDKCheckService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SDKCheckService.swift; path = VerifySDK/SDKCheckService.swift; sourceTree = "<group>"; };
+		62034C2C00B60831B89FEE667B185E6C /* ResponseFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseFactory.swift; path = VerifySDK/ResponseFactory.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6938FDAA319324681BD46C97069F5757 /* LogoutService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogoutService.swift; path = VerifySDK/LogoutService.swift; sourceTree = "<group>"; };
 		72A4FB0E7CEAE454BF4D8083769CE911 /* Pods-Foodle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Foodle-umbrella.h"; sourceTree = "<group>"; };
-		75273DF6F369DA7876F21AE79E50F8B0 /* Pods_Foodle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Foodle.framework; path = "Pods-Foodle.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E838C32AB2E1B9DC47A6406E6E37221 /* Pulley.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Pulley.modulemap; sourceTree = "<group>"; };
-		7F57C2EACD1762D0506D9B273519A7EA /* HttpRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpRequest.swift; path = VerifySDK/HttpRequest.swift; sourceTree = "<group>"; };
-		82D3F359850D2098666CE51DC7DF3098 /* NexmoDeviceProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NexmoDeviceProperties.h; path = DeviceProperties/NexmoDeviceProperties.h; sourceTree = "<group>"; };
-		836ADD79EDA0C2797A152BD553B73CE9 /* VerifyRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerifyRequest.swift; path = VerifySDK/VerifyRequest.swift; sourceTree = "<group>"; };
-		8478F17EE5F6ED15731707914C706C0D /* BaseResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseResponse.swift; path = VerifySDK/BaseResponse.swift; sourceTree = "<group>"; };
-		8868232BCF0781F364E814883EFB311D /* SDKRequestSigner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDKRequestSigner.m; path = RequestSigning/SDKRequestSigner.m; sourceTree = "<group>"; };
+		74AC1B262504FB49DDC6D37E1E20B710 /* VerifyClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerifyClient.swift; path = VerifySDK/VerifyClient.swift; sourceTree = "<group>"; };
+		77E7D1FBC2B9306B56AECA41AF850858 /* CheckRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckRequest.swift; path = VerifySDK/CheckRequest.swift; sourceTree = "<group>"; };
+		8049941B6706534678EAA7D3EF0A11C9 /* VerifyTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerifyTask.swift; path = VerifySDK/VerifyTask.swift; sourceTree = "<group>"; };
+		822899345AE47CA622F0B214982E9F22 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = VerifySDK/Info.plist; sourceTree = "<group>"; };
+		851D6463EB3734DF8222C94A44B849FD /* NexmoVerify.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NexmoVerify.modulemap; sourceTree = "<group>"; };
+		865BFE6FFA2432486F72899BB523F6DD /* RAReorderableLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAReorderableLayout.swift; path = RAReorderableLayout/RAReorderableLayout.swift; sourceTree = "<group>"; };
+		87821B59D2950A65CA40E187E93B9354 /* BaseResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseResponse.swift; path = VerifySDK/BaseResponse.swift; sourceTree = "<group>"; };
+		88501C4A5F72B59B89DBE12E8EFECE77 /* LogoutRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogoutRequest.swift; path = VerifySDK/LogoutRequest.swift; sourceTree = "<group>"; };
+		8A107E6DB7B5E2803CB279269E367008 /* RAReorderableLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RAReorderableLayout.modulemap; sourceTree = "<group>"; };
 		8FA669601D5D1D52ADFCAE4359071FD5 /* Pods-Foodle-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Foodle-frameworks.sh"; sourceTree = "<group>"; };
-		90B278D015FE31C7672E95A9759B6273 /* SearchService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchService.swift; path = VerifySDK/SearchService.swift; sourceTree = "<group>"; };
+		9045C5B8DA176FF24C3AE9A60B56C6DB /* CheckService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckService.swift; path = VerifySDK/CheckService.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9892BE4BC277A52D266E9B96F9069F00 /* ResponseCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseCode.swift; path = VerifySDK/ResponseCode.swift; sourceTree = "<group>"; };
-		9B8BC6B1D4811F09900590D83317A7DC /* UserStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserStatus.swift; path = VerifySDK/UserStatus.swift; sourceTree = "<group>"; };
-		9D1E6E43E670EA2D9F34B42CE43C8B1A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = VerifySDK/Info.plist; sourceTree = "<group>"; };
+		9487ACDF69ABE4DBE385C1768DFDA00C /* TokenResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokenResponse.swift; path = VerifySDK/TokenResponse.swift; sourceTree = "<group>"; };
+		9793142BAC4C47129931B74146FBEAE0 /* RAReorderableLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAReorderableLayout-umbrella.h"; sourceTree = "<group>"; };
+		99E72BB8966088939B0246B4F68A211B /* RequestSigner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RequestSigner.h; path = RequestSigning/RequestSigner.h; sourceTree = "<group>"; };
+		9BDC02BD13F4D341217D862B3D990AF3 /* HttpRequestBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpRequestBuilder.swift; path = VerifySDK/HttpRequestBuilder.swift; sourceTree = "<group>"; };
 		9D4D54989A7C8AAC4EFC598FACA60803 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D612D46F17318CCB64491EA8F637CD7 /* RAReorderableLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAReorderableLayout.xcconfig; sourceTree = "<group>"; };
-		9F25D29B1A92A6F02903AEA1BA793F02 /* Pulley.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pulley.xcconfig; sourceTree = "<group>"; };
-		A15DFE47EA61A7D5046D745F6E580E44 /* HttpResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpResponse.swift; path = VerifySDK/HttpResponse.swift; sourceTree = "<group>"; };
-		A3E637240945E406B2550A081F916A59 /* VerifyResponseFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerifyResponseFactory.swift; path = VerifySDK/VerifyResponseFactory.swift; sourceTree = "<group>"; };
-		A5D4B5D2207DE6399097E5AA44875308 /* SDKDeviceProperties.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDKDeviceProperties.m; path = DeviceProperties/SDKDeviceProperties.m; sourceTree = "<group>"; };
+		9EC2D81FDF82762724F63A15A46A6A54 /* RAReorderableLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RAReorderableLayout.framework; path = RAReorderableLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C228D570E5C2C21B735893B0BD8A32 /* SDKDeviceProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDKDeviceProperties.h; path = DeviceProperties/SDKDeviceProperties.h; sourceTree = "<group>"; };
+		A2237316EE8D5B48FCE95B796466821E /* ResponseCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseCode.swift; path = VerifySDK/ResponseCode.swift; sourceTree = "<group>"; };
 		A637C6003101864A07617828E0C71737 /* Pods-Foodle-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Foodle-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A9AF41DD79B9F9247D4575CFF74F7273 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABCF90173E88C8042705DF401FAA508E /* ServiceExecutor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceExecutor.swift; path = VerifySDK/ServiceExecutor.swift; sourceTree = "<group>"; };
-		B10DB8B9464FB2EF3D7FBE9919C872C5 /* RAReorderableLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAReorderableLayout-umbrella.h"; sourceTree = "<group>"; };
+		AC184B8BA411A950ECAC37EB7C82EC91 /* ControlRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlRequest.swift; path = VerifySDK/ControlRequest.swift; sourceTree = "<group>"; };
+		ADBDCC39FEC246AE4492539256293CDA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3CC5ACDC793A95842BC6740F7201817 /* Pods-Foodle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Foodle-dummy.m"; sourceTree = "<group>"; };
-		B47275579F568AE1A5036164E0792DE2 /* ResponseFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseFactory.swift; path = VerifySDK/ResponseFactory.swift; sourceTree = "<group>"; };
-		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B71C89095006EE773B5E5ADE5D0A1439 /* NexmoVerify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NexmoVerify.framework; path = NexmoVerify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9FB8A769F187699BA74A62542A08107 /* LogoutService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogoutService.swift; path = VerifySDK/LogoutService.swift; sourceTree = "<group>"; };
-		BC927389F4F4CE749ECC85316244882F /* VerifyUI.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = VerifyUI.storyboard; path = VerifySDK/VerifyUI.storyboard; sourceTree = "<group>"; };
-		C30ECEFCF4A55C49B272866E633E9D5D /* UIView+constrainToParent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+constrainToParent.swift"; path = "PulleyLib/UIView+constrainToParent.swift"; sourceTree = "<group>"; };
-		C3D35141710F0386F9B079422C0C8F9E /* VerifyService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerifyService.swift; path = VerifySDK/VerifyService.swift; sourceTree = "<group>"; };
+		B525F3A1E44AF37BDD20819299E916B7 /* Pods_Foodle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Foodle.framework; path = "Pods-Foodle.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7312A22A17525B48DDEAA345697EE2C /* NexmoDeviceProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NexmoDeviceProperties.h; path = DeviceProperties/NexmoDeviceProperties.h; sourceTree = "<group>"; };
+		BA3DD41EF6B1A359E11E1FDA407192D2 /* NexmoVerify-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NexmoVerify-dummy.m"; sourceTree = "<group>"; };
+		BABA187762DEBDA6DF94CE079964BEED /* CountryPickerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryPickerDelegate.swift; path = VerifySDK/CountryPickerDelegate.swift; sourceTree = "<group>"; };
+		BCBAAB42BA98279CCE091F6B6AB6F666 /* NexmoVerify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NexmoVerify.framework; path = NexmoVerify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C102C906AE966EBFC344CBCAD2597336 /* VerifyResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerifyResponse.swift; path = VerifySDK/VerifyResponse.swift; sourceTree = "<group>"; };
+		C1C36CA9A78E28DE0E177CD068BDDB35 /* VerifyUIController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerifyUIController.swift; path = VerifySDK/VerifyUIController.swift; sourceTree = "<group>"; };
+		C2DD687C09B80791EB9E744F276A68BC /* NexmoVerify-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NexmoVerify-prefix.pch"; sourceTree = "<group>"; };
+		C393DBFA65B8B3A5A812758AD00F6AA0 /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = VerifySDK/Config.swift; sourceTree = "<group>"; };
 		C7F3DD8C9910C8A0C9E83933937413BC /* Pods-Foodle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Foodle.release.xcconfig"; sourceTree = "<group>"; };
-		C902667FD5B45025E75ED3846BE9ED33 /* SDKRequestSigner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDKRequestSigner.h; path = RequestSigning/SDKRequestSigner.h; sourceTree = "<group>"; };
-		CAD041C391536D273C5F9E655290BE76 /* RAReorderableLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RAReorderableLayout-dummy.m"; sourceTree = "<group>"; };
-		CC157F376AA21B7E1F80E78A9C875F38 /* VerifyClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerifyClient.swift; path = VerifySDK/VerifyClient.swift; sourceTree = "<group>"; };
-		CCFB2714CF1D1B7984BD9E8AEACAB981 /* NexmoVerify-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NexmoVerify-prefix.pch"; sourceTree = "<group>"; };
-		CDEDEA21FD56111487AC6026E652BBFB /* LogoutResponseFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogoutResponseFactory.swift; path = VerifySDK/LogoutResponseFactory.swift; sourceTree = "<group>"; };
-		D072DD45236F59DC2249E8F2E1CF56D0 /* NexmoVerify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NexmoVerify.h; path = VerifySDK/NexmoVerify.h; sourceTree = "<group>"; };
+		C8831412B5E38E7682DB9F2292579DD7 /* SDKLogoutService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SDKLogoutService.swift; path = VerifySDK/SDKLogoutService.swift; sourceTree = "<group>"; };
+		CB51465DE68B58EEF55E622BCD29673F /* Data+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Helper.swift"; path = "VerifySDK/Data+Helper.swift"; sourceTree = "<group>"; };
+		CF80ECEF4F5DBEBD4DB6575757340BC2 /* SDKControlService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SDKControlService.swift; path = VerifySDK/SDKControlService.swift; sourceTree = "<group>"; };
 		D200117FF310C0DE157726DB560E4BD6 /* Pods-Foodle-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Foodle-resources.sh"; sourceTree = "<group>"; };
-		D592B67AB797288A31F6AECA1A54987C /* SDKDeviceProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDKDeviceProperties.h; path = DeviceProperties/SDKDeviceProperties.h; sourceTree = "<group>"; };
-		D5C8700B384A163DADB4436BC0B3454E /* Countries.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Countries.plist; path = VerifySDK/Countries.plist; sourceTree = "<group>"; };
-		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D8B86CC07E144465565A2F15B637D354 /* CheckService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckService.swift; path = VerifySDK/CheckService.swift; sourceTree = "<group>"; };
-		DB1FD19A9E9964BEF795229501688C48 /* LogoutRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogoutRequest.swift; path = VerifySDK/LogoutRequest.swift; sourceTree = "<group>"; };
-		DB9A51E0F36F730E76E5CCFD8ED84C6A /* PulleyPassthroughScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PulleyPassthroughScrollView.swift; path = PulleyLib/PulleyPassthroughScrollView.swift; sourceTree = "<group>"; };
-		DE251B31D67EE8FADF2C9AC9EE1EDC5B /* SDKProperties.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = SDKProperties.plist; path = VerifySDK/SDKProperties.plist; sourceTree = "<group>"; };
-		E559305F8ED9F72101ACBBD3158E4984 /* CheckReponseFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckReponseFactory.swift; path = VerifySDK/CheckReponseFactory.swift; sourceTree = "<group>"; };
-		E6C48067373652E6D87C6517A5B302E9 /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = VerifySDK/Config.swift; sourceTree = "<group>"; };
-		E9A9D284D0FD4565F293AE267C22971D /* NexmoRequestSigning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NexmoRequestSigning.h; path = RequestSigning/NexmoRequestSigning.h; sourceTree = "<group>"; };
-		EF44FF727625EDD884795E93B3D219E9 /* PulleyViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PulleyViewController.swift; path = PulleyLib/PulleyViewController.swift; sourceTree = "<group>"; };
-		F150ED8F91DDA06D31E1E47B3BFCD356 /* RAReorderableLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RAReorderableLayout.framework; path = RAReorderableLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F46EA6E2FD5F00A8BFF52F2B7405DF01 /* NexmoVerify.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NexmoVerify.xcconfig; sourceTree = "<group>"; };
-		F5142CD2B95964AF0BB534D22E015623 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5422DAC68158800BADBCCDF3E90533F /* Pulley-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pulley-prefix.pch"; sourceTree = "<group>"; };
-		F886E31D9107CE7451A9EEA97E204787 /* Pulley.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pulley.framework; path = Pulley.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F92D48D992F28E867ED8292A33B4F54A /* VerifyTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerifyTask.swift; path = VerifySDK/VerifyTask.swift; sourceTree = "<group>"; };
-		FBCF70EE2EBE878C76BE232B4654E613 /* Pulley-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pulley-dummy.m"; sourceTree = "<group>"; };
-		FBF5C8D8FACCC60E50911D5E2401E745 /* Countries.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Countries.swift; path = VerifySDK/Countries.swift; sourceTree = "<group>"; };
-		FF7A2F71BC41DE5EFDC4236C6F527FE4 /* SDKLogoutService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SDKLogoutService.swift; path = VerifySDK/SDKLogoutService.swift; sourceTree = "<group>"; };
+		D40E1756F05B73D307D86ADCDF6AA1B4 /* SearchService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchService.swift; path = VerifySDK/SearchService.swift; sourceTree = "<group>"; };
+		DC0DD4C7B6EC5A1F68F9B3AE29875F49 /* SearchRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchRequest.swift; path = VerifySDK/SearchRequest.swift; sourceTree = "<group>"; };
+		DD40F7FC748C26B48CC001DFE4F12CB1 /* VerifyError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerifyError.swift; path = VerifySDK/VerifyError.swift; sourceTree = "<group>"; };
+		E7428E1E18C52A3F1A8B31E98B851E0D /* CountryPickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryPickerController.swift; path = VerifySDK/CountryPickerController.swift; sourceTree = "<group>"; };
+		EDD0BEFAF890FC862D2D093D7DE78B79 /* ServiceExecutor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceExecutor.swift; path = VerifySDK/ServiceExecutor.swift; sourceTree = "<group>"; };
+		F54735CDE4307FBF726AA6F06E498044 /* ControlService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlService.swift; path = VerifySDK/ControlService.swift; sourceTree = "<group>"; };
+		F6B89FC0FB8330F961EEFA2C7A308E8E /* RAReorderableLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RAReorderableLayout-dummy.m"; sourceTree = "<group>"; };
+		FB6564FE0E5B30537F175865729FF72B /* SDKVerifyService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SDKVerifyService.swift; path = VerifySDK/SDKVerifyService.swift; sourceTree = "<group>"; };
+		FCCDF21431B122DFEE2399356F28C4A2 /* NexmoVerify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NexmoVerify.h; path = VerifySDK/NexmoVerify.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		37D974D979236CFE5D413316DFE3E241 /* Frameworks */ = {
+		0E773BDAFC50B37391D8940C2C29BE88 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D40B581798ACF498246F0A586C4B29E2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		50C516351C70CC66F05CBF15618F97BF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0FF85A8AD81D0572607F6E57398F25CE /* Foundation.framework in Frameworks */,
-				4F3D39A541B2D7FB7CB3AC493B929FCC /* UIKit.framework in Frameworks */,
+				9DA344562540AD5B59BE6B225C4AA320 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,80 +202,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBB62A8B223109FA0712D66FD6B1F849 /* Frameworks */ = {
+		E8C066906E26787C34A0F2CB71788077 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				828EAA89CA0909A34801C7BD02AECD9F /* Foundation.framework in Frameworks */,
+				47428C3BF387A5F1C3E9F48BAF534BBD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		19456CFEEF362EF255867477CEA70D25 /* RAReorderableLayout */ = {
+		0B7239DAD9042B02FB78935CB8C988BF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1399B536D66A66A09EAEE315BC2CBDD8 /* RAReorderableLayout.swift */,
-				953D7E2E3A45DC7C0831C8437BE828C1 /* Support Files */,
+				ADBDCC39FEC246AE4492539256293CDA /* Info.plist */,
+				851D6463EB3734DF8222C94A44B849FD /* NexmoVerify.modulemap */,
+				1BB3A7E4E1C1AA1047402DA93F850874 /* NexmoVerify.xcconfig */,
+				BA3DD41EF6B1A359E11E1FDA407192D2 /* NexmoVerify-dummy.m */,
+				C2DD687C09B80791EB9E744F276A68BC /* NexmoVerify-prefix.pch */,
+				0AA9003E33DDC00C9C6A2122DF823BD8 /* NexmoVerify-umbrella.h */,
 			);
-			name = RAReorderableLayout;
-			path = RAReorderableLayout;
+			name = "Support Files";
+			path = "../Target Support Files/NexmoVerify";
 			sourceTree = "<group>";
 		};
-		19E8975514F29A9C1C237F0B8401FD2A /* Core */ = {
+		0CF68B239204B541C0A5882E3385443A /* RequestSigning */ = {
 			isa = PBXGroup;
 			children = (
-				8478F17EE5F6ED15731707914C706C0D /* BaseResponse.swift */,
-				E559305F8ED9F72101ACBBD3158E4984 /* CheckReponseFactory.swift */,
-				164251CFB7A5819531B8AC6A1D09E726 /* CheckRequest.swift */,
-				280A62BA2D00A1644F91BB1FD8500EBA /* CheckResponse.swift */,
-				D8B86CC07E144465565A2F15B637D354 /* CheckService.swift */,
-				E6C48067373652E6D87C6517A5B302E9 /* Config.swift */,
-				03E355631C5F9609C3DEBB5D652851BA /* ControlRequest.swift */,
-				612E9E4BC9AA88EF3A234A4AAC3A12FE /* ControlResponse.swift */,
-				3628CFB3A8590B82B1D64F6F7BE0C4CB /* ControlResponseFactory.swift */,
-				4D55A8B761B75C534D433B3AE3D58FCB /* ControlService.swift */,
-				FBF5C8D8FACCC60E50911D5E2401E745 /* Countries.swift */,
-				00165CE87A1AB5F2835757B88683F5C7 /* CountryPickerController.swift */,
-				2A8181D1A7827583F96DDF30DCDE263A /* CountryPickerDelegate.swift */,
-				29E13ECF9D80FBB8148595E6023C88E8 /* Data+Helper.swift */,
-				7F57C2EACD1762D0506D9B273519A7EA /* HttpRequest.swift */,
-				42D3C60BC005D9CA37A52D00621BE923 /* HttpRequestBuilder.swift */,
-				A15DFE47EA61A7D5046D745F6E580E44 /* HttpResponse.swift */,
-				044D9FE8538CEEAD8FCAEFD6889D0DD4 /* Logger.swift */,
-				DB1FD19A9E9964BEF795229501688C48 /* LogoutRequest.swift */,
-				455B47B59E3369CD4711DA2DAF23B825 /* LogoutResponse.swift */,
-				CDEDEA21FD56111487AC6026E652BBFB /* LogoutResponseFactory.swift */,
-				B9FB8A769F187699BA74A62542A08107 /* LogoutService.swift */,
-				56D8D89B6DC6617680840B4EB3974795 /* NexmoClient.swift */,
-				D072DD45236F59DC2249E8F2E1CF56D0 /* NexmoVerify.h */,
-				9892BE4BC277A52D266E9B96F9069F00 /* ResponseCode.swift */,
-				B47275579F568AE1A5036164E0792DE2 /* ResponseFactory.swift */,
-				6DD5BAB3928E68A0803BC5160A696001 /* SDKCheckService.swift */,
-				1C1C034D535EA5C78F191296F2E68570 /* SDKControlService.swift */,
-				FF7A2F71BC41DE5EFDC4236C6F527FE4 /* SDKLogoutService.swift */,
-				5C519C6C3D5ABC55CFA6EAF85A20F5E2 /* SDKSearchService.swift */,
-				0CBCA8BCE34E0D53178B3651C65C1C89 /* SDKVerifyService.swift */,
-				56147527E5C4E4A172E46F26F9FAF220 /* SearchRequest.swift */,
-				586521B7A3B55ABC9569600454C9B3AB /* SearchResponse.swift */,
-				094A9C341ED88C205C27FEF056C5A770 /* SearchResponseFactory.swift */,
-				90B278D015FE31C7672E95A9759B6273 /* SearchService.swift */,
-				ABCF90173E88C8042705DF401FAA508E /* ServiceExecutor.swift */,
-				5BC4CCBEFCD3E9A5CEE4F34BEC90270F /* TokenResponse.swift */,
-				9B8BC6B1D4811F09900590D83317A7DC /* UserStatus.swift */,
-				CC157F376AA21B7E1F80E78A9C875F38 /* VerifyClient.swift */,
-				4F8E47258F8F9BB25B0BA91CFDC65A4B /* VerifyError.swift */,
-				836ADD79EDA0C2797A152BD553B73CE9 /* VerifyRequest.swift */,
-				3A09871CA868D66DF02F546D6236318F /* VerifyResponse.swift */,
-				A3E637240945E406B2550A081F916A59 /* VerifyResponseFactory.swift */,
-				C3D35141710F0386F9B079422C0C8F9E /* VerifyService.swift */,
-				F92D48D992F28E867ED8292A33B4F54A /* VerifyTask.swift */,
-				1005CA80B5FD9E58C018C24F32F1AFE6 /* VerifyUIController.swift */,
-				2E82D70FB6021B1E64F9BB43063FBC09 /* VerifyUIDelegate.swift */,
-				8F1FD185C708015E0A699811CF246EC8 /* Resources */,
+				12238E8B25C1BE359E0A7E197A0B4F55 /* NexmoRequestSigning.h */,
+				99E72BB8966088939B0246B4F68A211B /* RequestSigner.h */,
+				24BD049D7BD11EF22EFBE01F11FD65A5 /* SDKRequestSigner.h */,
+				5DF3D90A1E0BACE80F127B1D037478A1 /* SDKRequestSigner.m */,
 			);
-			name = Core;
+			name = RequestSigning;
+			sourceTree = "<group>";
+		};
+		1676F65D3BF926EBDE77E3C7543A7D29 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0FDAA0684537793BB44CA9ADC2BD3941 /* Countries.plist */,
+				822899345AE47CA622F0B214982E9F22 /* Info.plist */,
+				3CFA2EA7A87519A456C96E3FB08311FE /* SDKProperties.plist */,
+				166ECADD009BA3B282E69C6B1BFFAA52 /* VerifyUI.storyboard */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		335ACBC77E869BC77926732B58FED0E9 /* Pods-Foodle */ = {
@@ -338,170 +275,170 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3F8874148249413EC9A07250BCF787EE /* DeviceProperties */ = {
+		3F2FB929B26CC53253742C4A3D5ACC26 /* DeviceProperties */ = {
 			isa = PBXGroup;
 			children = (
-				592CFB51792119B69A9C170F97F8F848 /* DevicePropertyAccessor.h */,
-				82D3F359850D2098666CE51DC7DF3098 /* NexmoDeviceProperties.h */,
-				D592B67AB797288A31F6AECA1A54987C /* SDKDeviceProperties.h */,
-				A5D4B5D2207DE6399097E5AA44875308 /* SDKDeviceProperties.m */,
+				5EA685855B04A29D429B4DE9DF573EDA /* DevicePropertyAccessor.h */,
+				B7312A22A17525B48DDEAA345697EE2C /* NexmoDeviceProperties.h */,
+				A1C228D570E5C2C21B735893B0BD8A32 /* SDKDeviceProperties.h */,
+				357E1BC527C7EB783CA1E0B2BCC482F8 /* SDKDeviceProperties.m */,
 			);
 			name = DeviceProperties;
 			sourceTree = "<group>";
 		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+		52F2A9846E4F722366DB91D8AE0A1E37 /* NexmoVerify */ = {
 			isa = PBXGroup;
 			children = (
-				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+				79D8624B2B4AA3AE5D664F9E7A2DDD4A /* Core */,
+				3F2FB929B26CC53253742C4A3D5ACC26 /* DeviceProperties */,
+				0CF68B239204B541C0A5882E3385443A /* RequestSigning */,
+				0B7239DAD9042B02FB78935CB8C988BF /* Support Files */,
 			);
-			name = Frameworks;
+			name = NexmoVerify;
+			path = NexmoVerify;
 			sourceTree = "<group>";
 		};
-		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+		5CAF6E02FBCE0E78E20E9E7641219FAF /* RAReorderableLayout */ = {
 			isa = PBXGroup;
 			children = (
-				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
-				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+				865BFE6FFA2432486F72899BB523F6DD /* RAReorderableLayout.swift */,
+				9687BBB8FE7A70162AB9780DFEF66DCF /* Support Files */,
 			);
-			name = iOS;
+			name = RAReorderableLayout;
+			path = RAReorderableLayout;
 			sourceTree = "<group>";
 		};
-		7D2FB1CC0AD67C25CEB2592474A28FAE /* Pods */ = {
+		79D8624B2B4AA3AE5D664F9E7A2DDD4A /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				C31721E15D20154A639681479B157621 /* NexmoVerify */,
-				9DE92A097BC787B50F70CCC1BD66358A /* Pulley */,
-				19456CFEEF362EF255867477CEA70D25 /* RAReorderableLayout */,
+				87821B59D2950A65CA40E187E93B9354 /* BaseResponse.swift */,
+				3A55B1363F6E75459606758CE78F59FA /* CheckReponseFactory.swift */,
+				77E7D1FBC2B9306B56AECA41AF850858 /* CheckRequest.swift */,
+				5F77B1687C58EDF81500FA56CF6AD2AA /* CheckResponse.swift */,
+				9045C5B8DA176FF24C3AE9A60B56C6DB /* CheckService.swift */,
+				C393DBFA65B8B3A5A812758AD00F6AA0 /* Config.swift */,
+				AC184B8BA411A950ECAC37EB7C82EC91 /* ControlRequest.swift */,
+				2C103015BA8AB7E2B9BD7761B8FF0272 /* ControlResponse.swift */,
+				0A10D419F2B36AF33A0D9E6ACFC970C6 /* ControlResponseFactory.swift */,
+				F54735CDE4307FBF726AA6F06E498044 /* ControlService.swift */,
+				535BF84EDE541978975304F749DC86F8 /* Countries.swift */,
+				E7428E1E18C52A3F1A8B31E98B851E0D /* CountryPickerController.swift */,
+				BABA187762DEBDA6DF94CE079964BEED /* CountryPickerDelegate.swift */,
+				CB51465DE68B58EEF55E622BCD29673F /* Data+Helper.swift */,
+				5513FBBEF67EE782884A32603833284E /* HttpRequest.swift */,
+				9BDC02BD13F4D341217D862B3D990AF3 /* HttpRequestBuilder.swift */,
+				41E9C5180909DD7061E540345C326F8E /* HttpResponse.swift */,
+				5F0E6152577C269491AD0CDE794C5B7D /* Logger.swift */,
+				88501C4A5F72B59B89DBE12E8EFECE77 /* LogoutRequest.swift */,
+				090D168D8F175004C145DC0F5F81BA47 /* LogoutResponse.swift */,
+				2D593E502246D742E010D114B36E2785 /* LogoutResponseFactory.swift */,
+				6938FDAA319324681BD46C97069F5757 /* LogoutService.swift */,
+				5EE8828B7B919680393BFC0CF2E35F9F /* NexmoClient.swift */,
+				FCCDF21431B122DFEE2399356F28C4A2 /* NexmoVerify.h */,
+				A2237316EE8D5B48FCE95B796466821E /* ResponseCode.swift */,
+				62034C2C00B60831B89FEE667B185E6C /* ResponseFactory.swift */,
+				39CFA014073EBB78AA4615B0675998AC /* SDKCheckService.swift */,
+				CF80ECEF4F5DBEBD4DB6575757340BC2 /* SDKControlService.swift */,
+				C8831412B5E38E7682DB9F2292579DD7 /* SDKLogoutService.swift */,
+				35D5895E9A716F7BD56627CB28FF3A89 /* SDKSearchService.swift */,
+				FB6564FE0E5B30537F175865729FF72B /* SDKVerifyService.swift */,
+				DC0DD4C7B6EC5A1F68F9B3AE29875F49 /* SearchRequest.swift */,
+				4A89978FE56E219195B759B73C6AC36C /* SearchResponse.swift */,
+				5694C2D7D884FB869D1A9410AC4CE6F9 /* SearchResponseFactory.swift */,
+				D40E1756F05B73D307D86ADCDF6AA1B4 /* SearchService.swift */,
+				EDD0BEFAF890FC862D2D093D7DE78B79 /* ServiceExecutor.swift */,
+				9487ACDF69ABE4DBE385C1768DFDA00C /* TokenResponse.swift */,
+				5CB847CDB2935ABA55A28336CF12EA6B /* UserStatus.swift */,
+				74AC1B262504FB49DDC6D37E1E20B710 /* VerifyClient.swift */,
+				DD40F7FC748C26B48CC001DFE4F12CB1 /* VerifyError.swift */,
+				4A67A3CAE8239CDAF1770076A967C7C5 /* VerifyRequest.swift */,
+				C102C906AE966EBFC344CBCAD2597336 /* VerifyResponse.swift */,
+				1BD4873020B970E6EA11843A3CE871FA /* VerifyResponseFactory.swift */,
+				1A1A4EF9520931B3AA9EDEF2943628F4 /* VerifyService.swift */,
+				8049941B6706534678EAA7D3EF0A11C9 /* VerifyTask.swift */,
+				C1C36CA9A78E28DE0E177CD068BDDB35 /* VerifyUIController.swift */,
+				3710C7D034C87C7A65B1EDA0128ECE9C /* VerifyUIDelegate.swift */,
+				1676F65D3BF926EBDE77E3C7543A7D29 /* Resources */,
 			);
-			name = Pods;
+			name = Core;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				7D2FB1CC0AD67C25CEB2592474A28FAE /* Pods */,
-				7DCC6D5F968D5F82ACAE6F41CA05D76A /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				91E9EB695D99D1FD925A480D2547E9EE /* Pods */,
+				AC6CEB6F69C4A7DA70B95D11B198BCEF /* Products */,
 				3CF8ACB059FB7247A699A5E0CC1DE359 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7DCC6D5F968D5F82ACAE6F41CA05D76A /* Products */ = {
+		91E9EB695D99D1FD925A480D2547E9EE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B71C89095006EE773B5E5ADE5D0A1439 /* NexmoVerify.framework */,
-				75273DF6F369DA7876F21AE79E50F8B0 /* Pods_Foodle.framework */,
-				F886E31D9107CE7451A9EEA97E204787 /* Pulley.framework */,
-				F150ED8F91DDA06D31E1E47B3BFCD356 /* RAReorderableLayout.framework */,
+				52F2A9846E4F722366DB91D8AE0A1E37 /* NexmoVerify */,
+				5CAF6E02FBCE0E78E20E9E7641219FAF /* RAReorderableLayout */,
 			);
-			name = Products;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		82F19237B66E5797C90C597A92CEABF3 /* Support Files */ = {
+		9687BBB8FE7A70162AB9780DFEF66DCF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A9AF41DD79B9F9247D4575CFF74F7273 /* Info.plist */,
-				4CA7C2FAD06153CAB0CB51EE849EB57D /* NexmoVerify.modulemap */,
-				F46EA6E2FD5F00A8BFF52F2B7405DF01 /* NexmoVerify.xcconfig */,
-				2186A9BFFE632F60EECF114DA305BACA /* NexmoVerify-dummy.m */,
-				CCFB2714CF1D1B7984BD9E8AEACAB981 /* NexmoVerify-prefix.pch */,
-				55F756DC2C0943B6FD05876E2CEDF20A /* NexmoVerify-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/NexmoVerify";
-			sourceTree = "<group>";
-		};
-		8F1FD185C708015E0A699811CF246EC8 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D5C8700B384A163DADB4436BC0B3454E /* Countries.plist */,
-				9D1E6E43E670EA2D9F34B42CE43C8B1A /* Info.plist */,
-				DE251B31D67EE8FADF2C9AC9EE1EDC5B /* SDKProperties.plist */,
-				BC927389F4F4CE749ECC85316244882F /* VerifyUI.storyboard */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		9078BAC41D5B736174609870B4FCF257 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				359D68F2186CDBD5CD95BCEE9AE6FC2A /* Info.plist */,
-				7E838C32AB2E1B9DC47A6406E6E37221 /* Pulley.modulemap */,
-				9F25D29B1A92A6F02903AEA1BA793F02 /* Pulley.xcconfig */,
-				FBCF70EE2EBE878C76BE232B4654E613 /* Pulley-dummy.m */,
-				F5422DAC68158800BADBCCDF3E90533F /* Pulley-prefix.pch */,
-				481451093436841403C5F9F1215D3705 /* Pulley-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pulley";
-			sourceTree = "<group>";
-		};
-		953D7E2E3A45DC7C0831C8437BE828C1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F5142CD2B95964AF0BB534D22E015623 /* Info.plist */,
-				00A8CBF28748E3A7C0DB98112C17553B /* RAReorderableLayout.modulemap */,
-				9D612D46F17318CCB64491EA8F637CD7 /* RAReorderableLayout.xcconfig */,
-				CAD041C391536D273C5F9E655290BE76 /* RAReorderableLayout-dummy.m */,
-				5017DDE33CEA44197177F02A0C5AD1EF /* RAReorderableLayout-prefix.pch */,
-				B10DB8B9464FB2EF3D7FBE9919C872C5 /* RAReorderableLayout-umbrella.h */,
+				0D6FDC9DC28757F55EA40FDB503E8702 /* Info.plist */,
+				8A107E6DB7B5E2803CB279269E367008 /* RAReorderableLayout.modulemap */,
+				3B5072A539D1AF62000EDA3A157933CE /* RAReorderableLayout.xcconfig */,
+				F6B89FC0FB8330F961EEFA2C7A308E8E /* RAReorderableLayout-dummy.m */,
+				30A89AA3FE8E5BB9335889563692DADB /* RAReorderableLayout-prefix.pch */,
+				9793142BAC4C47129931B74146FBEAE0 /* RAReorderableLayout-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/RAReorderableLayout";
 			sourceTree = "<group>";
 		};
-		9DE92A097BC787B50F70CCC1BD66358A /* Pulley */ = {
+		AC6CEB6F69C4A7DA70B95D11B198BCEF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB9A51E0F36F730E76E5CCFD8ED84C6A /* PulleyPassthroughScrollView.swift */,
-				EF44FF727625EDD884795E93B3D219E9 /* PulleyViewController.swift */,
-				C30ECEFCF4A55C49B272866E633E9D5D /* UIView+constrainToParent.swift */,
-				9078BAC41D5B736174609870B4FCF257 /* Support Files */,
+				BCBAAB42BA98279CCE091F6B6AB6F666 /* NexmoVerify.framework */,
+				B525F3A1E44AF37BDD20819299E916B7 /* Pods_Foodle.framework */,
+				9EC2D81FDF82762724F63A15A46A6A54 /* RAReorderableLayout.framework */,
 			);
-			name = Pulley;
-			path = Pulley;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		C31721E15D20154A639681479B157621 /* NexmoVerify */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				19E8975514F29A9C1C237F0B8401FD2A /* Core */,
-				3F8874148249413EC9A07250BCF787EE /* DeviceProperties */,
-				D2B811FAC246D4EBE15948575BB7DD73 /* RequestSigning */,
-				82F19237B66E5797C90C597A92CEABF3 /* Support Files */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
-			name = NexmoVerify;
-			path = NexmoVerify;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D2B811FAC246D4EBE15948575BB7DD73 /* RequestSigning */ = {
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E9A9D284D0FD4565F293AE267C22971D /* NexmoRequestSigning.h */,
-				5B295B47F99E4012689565419F62D51F /* RequestSigner.h */,
-				C902667FD5B45025E75ED3846BE9ED33 /* SDKRequestSigner.h */,
-				8868232BCF0781F364E814883EFB311D /* SDKRequestSigner.m */,
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
-			name = RequestSigning;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7DF5A181AADD651C4C92C9F1960FB362 /* Headers */ = {
+		1E4FBA1881CB2501344EBE251ACE4005 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B67BB60BB8BAB9E64D31E28B0D8B43D /* Pulley-umbrella.h in Headers */,
+				445501DD48ECAB3B16D1E2AB66048065 /* Pods-Foodle-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AFB568C9D4C9D736D92BE6CE7BA9B4CA /* Headers */ = {
+		3DE8C2CA9E27584F717AD56BB5C543DA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EB7D395B4A37236F928B8AAEFDA8B81 /* Pods-Foodle-umbrella.h in Headers */,
+				8120719D00D2DAC9E0576A62D96BB900 /* RAReorderableLayout-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,71 +457,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F919F17470B1E29C540C5B4A6E5E3EEC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B0357ED262DEBC4C3FA83A3805ECA9FA /* RAReorderableLayout-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		26B10376ED88BAAC3184F0B896CD8755 /* Pods-Foodle */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 90CEABD52E33651A8E0CA79BB72B5F54 /* Build configuration list for PBXNativeTarget "Pods-Foodle" */;
-			buildPhases = (
-				6E68B0847C345CF60496B6A54160D8BD /* Sources */,
-				37D974D979236CFE5D413316DFE3E241 /* Frameworks */,
-				AFB568C9D4C9D736D92BE6CE7BA9B4CA /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C4C52EA978CE011DD6D89ADD63C4A42A /* PBXTargetDependency */,
-				64C30B61CBC3407168E49E417070A6D7 /* PBXTargetDependency */,
-				09DCC60E75BABD9BFE7992184F56E61D /* PBXTargetDependency */,
-			);
-			name = "Pods-Foodle";
-			productName = "Pods-Foodle";
-			productReference = 75273DF6F369DA7876F21AE79E50F8B0 /* Pods_Foodle.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		32358395716DEC84DEADBD10AD6E8111 /* Pulley */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E617B8D424069E51F7C63050317B0B03 /* Build configuration list for PBXNativeTarget "Pulley" */;
-			buildPhases = (
-				BF8B9E1BAEBB2BDDB06E8676E7FD75F0 /* Sources */,
-				50C516351C70CC66F05CBF15618F97BF /* Frameworks */,
-				7DF5A181AADD651C4C92C9F1960FB362 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Pulley;
-			productName = Pulley;
-			productReference = F886E31D9107CE7451A9EEA97E204787 /* Pulley.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		4DAFF128639CE18FCDCD3F54103C10E9 /* RAReorderableLayout */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A760C2F62EB4CA0F26F87AA7AE542AC1 /* Build configuration list for PBXNativeTarget "RAReorderableLayout" */;
-			buildPhases = (
-				AADDBA30CDDF266B327EC4A104220A0E /* Sources */,
-				EBB62A8B223109FA0712D66FD6B1F849 /* Frameworks */,
-				F919F17470B1E29C540C5B4A6E5E3EEC /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = RAReorderableLayout;
-			productName = RAReorderableLayout;
-			productReference = F150ED8F91DDA06D31E1E47B3BFCD356 /* RAReorderableLayout.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		5E96A42180F684E58CA88D45A3F1F354 /* NexmoVerify */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCA86917DD21CA8A1BA942B63A160A86 /* Build configuration list for PBXNativeTarget "NexmoVerify" */;
@@ -600,7 +475,43 @@
 			);
 			name = NexmoVerify;
 			productName = NexmoVerify;
-			productReference = B71C89095006EE773B5E5ADE5D0A1439 /* NexmoVerify.framework */;
+			productReference = BCBAAB42BA98279CCE091F6B6AB6F666 /* NexmoVerify.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9FBD1BED5BA25689422836D331D8694D /* Pods-Foodle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B6F1185F748F84439EAD763CDCE421D /* Build configuration list for PBXNativeTarget "Pods-Foodle" */;
+			buildPhases = (
+				BA94B841FF98F02DA6709B0D72F64662 /* Sources */,
+				E8C066906E26787C34A0F2CB71788077 /* Frameworks */,
+				1E4FBA1881CB2501344EBE251ACE4005 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				749798F054AB583E9E3A2FF0A8CB1394 /* PBXTargetDependency */,
+				9FF714FE5044B97E28471F4D67CFACD1 /* PBXTargetDependency */,
+			);
+			name = "Pods-Foodle";
+			productName = "Pods-Foodle";
+			productReference = B525F3A1E44AF37BDD20819299E916B7 /* Pods_Foodle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D454C7E8D143AD723A016B419BFB8BC7 /* RAReorderableLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6971F14B5F383D3D724AFE172E480633 /* Build configuration list for PBXNativeTarget "RAReorderableLayout" */;
+			buildPhases = (
+				E9820FC7A4D974353A3A2B9BAACC16ED /* Sources */,
+				0E773BDAFC50B37391D8940C2C29BE88 /* Frameworks */,
+				3DE8C2CA9E27584F717AD56BB5C543DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAReorderableLayout;
+			productName = RAReorderableLayout;
+			productReference = 9EC2D81FDF82762724F63A15A46A6A54 /* RAReorderableLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -620,14 +531,13 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7DCC6D5F968D5F82ACAE6F41CA05D76A /* Products */;
+			productRefGroup = AC6CEB6F69C4A7DA70B95D11B198BCEF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				5E96A42180F684E58CA88D45A3F1F354 /* NexmoVerify */,
-				26B10376ED88BAAC3184F0B896CD8755 /* Pods-Foodle */,
-				32358395716DEC84DEADBD10AD6E8111 /* Pulley */,
-				4DAFF128639CE18FCDCD3F54103C10E9 /* RAReorderableLayout */,
+				9FBD1BED5BA25689422836D331D8694D /* Pods-Foodle */,
+				D454C7E8D143AD723A016B419BFB8BC7 /* RAReorderableLayout */,
 			);
 		};
 /* End PBXProject section */
@@ -647,23 +557,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6E68B0847C345CF60496B6A54160D8BD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F871D61F75F61154239C33FE01A60067 /* Pods-Foodle-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AADDBA30CDDF266B327EC4A104220A0E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E016160D8852BBF94E491DD5CB274392 /* RAReorderableLayout-dummy.m in Sources */,
-				4B1B75454B059588E04A78B68ABEA181 /* RAReorderableLayout.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B4DD18FB5B120B3EB5F998472A2D6EB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -720,112 +613,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF8B9E1BAEBB2BDDB06E8676E7FD75F0 /* Sources */ = {
+		BA94B841FF98F02DA6709B0D72F64662 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC9060B7CFEB763170F7BD97A74B86D0 /* Pulley-dummy.m in Sources */,
-				9DC33583B62811A3A85305AFE51881CC /* PulleyPassthroughScrollView.swift in Sources */,
-				9E3F44BB4976628E776F24FE80527966 /* PulleyViewController.swift in Sources */,
-				C2D05EC0282FAE66A033086C1F6F5D69 /* UIView+constrainToParent.swift in Sources */,
+				7B5E21067014836E820E168BC0107A71 /* Pods-Foodle-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9820FC7A4D974353A3A2B9BAACC16ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B015F711C4E9D1AA0094154F89E6A8 /* RAReorderableLayout-dummy.m in Sources */,
+				93B6A32C4CEFD3A3B8F89BE2B819A83D /* RAReorderableLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		09DCC60E75BABD9BFE7992184F56E61D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RAReorderableLayout;
-			target = 4DAFF128639CE18FCDCD3F54103C10E9 /* RAReorderableLayout */;
-			targetProxy = 4B3C434EA0286B4043141DEC7FE23627 /* PBXContainerItemProxy */;
-		};
-		64C30B61CBC3407168E49E417070A6D7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Pulley;
-			target = 32358395716DEC84DEADBD10AD6E8111 /* Pulley */;
-			targetProxy = 4ACE432897E0347659DBF89590DDF431 /* PBXContainerItemProxy */;
-		};
-		C4C52EA978CE011DD6D89ADD63C4A42A /* PBXTargetDependency */ = {
+		749798F054AB583E9E3A2FF0A8CB1394 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NexmoVerify;
 			target = 5E96A42180F684E58CA88D45A3F1F354 /* NexmoVerify */;
-			targetProxy = D50B528750A539E6C93157B65B5F1AE2 /* PBXContainerItemProxy */;
+			targetProxy = A856A961A18AC3CEFC8B0BC4079B93A6 /* PBXContainerItemProxy */;
+		};
+		9FF714FE5044B97E28471F4D67CFACD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RAReorderableLayout;
+			target = D454C7E8D143AD723A016B419BFB8BC7 /* RAReorderableLayout */;
+			targetProxy = FAC0D133A2083DCF25D4431364FD515A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5933C093F17BDCEDAE5AFD4D18206886 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F25D29B1A92A6F02903AEA1BA793F02 /* Pulley.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pulley/Pulley-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pulley/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pulley/Pulley.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Pulley;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		81231891B322D68955A0CA3DF2896461 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F46EA6E2FD5F00A8BFF52F2B7405DF01 /* NexmoVerify.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/NexmoVerify/NexmoVerify-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NexmoVerify/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NexmoVerify/NexmoVerify.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = NexmoVerify;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A0441F815CC68864909A40B2F7CB1DCB /* Release */ = {
+		0F2842EDC6210E1036161C2A9C6640C4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C7F3DD8C9910C8A0C9E83933937413BC /* Pods-Foodle.release.xcconfig */;
 			buildSettings = {
@@ -843,7 +666,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Foodle/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Foodle/Pods-Foodle.modulemap";
@@ -863,7 +686,7 @@
 			};
 			name = Release;
 		};
-		ABC1C622E3A94D5EFA80B6DBB5E64193 /* Release */ = {
+		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -899,7 +722,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -907,9 +730,9 @@
 			};
 			name = Release;
 		};
-		AF572B76AA9F3805DD2757E5567B94F3 /* Debug */ = {
+		38BC48BD625D6FBC14DF09448D5CCD7D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53BFDBDB28F2B01B8F2348949BB67821 /* Pods-Foodle.debug.xcconfig */;
+			baseConfigurationReference = 3B5072A539D1AF62000EDA3A157933CE /* RAReorderableLayout.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -923,53 +746,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Foodle/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Foodle/Pods-Foodle.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Foodle;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B284CF48C0D7F245BC1AE00ECDDCB0B2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F46EA6E2FD5F00A8BFF52F2B7405DF01 /* NexmoVerify.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/NexmoVerify/NexmoVerify-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NexmoVerify/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RAReorderableLayout/RAReorderableLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAReorderableLayout/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NexmoVerify/NexmoVerify.modulemap";
+				MODULEMAP_FILE = "Target Support Files/RAReorderableLayout/RAReorderableLayout.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = NexmoVerify;
+				PRODUCT_NAME = RAReorderableLayout;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -981,9 +765,9 @@
 			};
 			name = Debug;
 		};
-		C9514508514049F31B3CA6AD7E257DD2 /* Release */ = {
+		474C34FC40FC67A8ADD8784F2B601379 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D612D46F17318CCB64491EA8F637CD7 /* RAReorderableLayout.xcconfig */;
+			baseConfigurationReference = 3B5072A539D1AF62000EDA3A157933CE /* RAReorderableLayout.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1016,9 +800,9 @@
 			};
 			name = Release;
 		};
-		D5F0B88B2EA80BE5E2DC4ECC9C402B88 /* Debug */ = {
+		68828D8D21F9C0C510434ED1FC125B1A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D612D46F17318CCB64491EA8F637CD7 /* RAReorderableLayout.xcconfig */;
+			baseConfigurationReference = 53BFDBDB28F2B01B8F2348949BB67821 /* Pods-Foodle.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1032,14 +816,88 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RAReorderableLayout/RAReorderableLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RAReorderableLayout/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Foodle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Foodle/Pods-Foodle.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Foodle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81231891B322D68955A0CA3DF2896461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB3A7E4E1C1AA1047402DA93F850874 /* NexmoVerify.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NexmoVerify/NexmoVerify-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NexmoVerify/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RAReorderableLayout/RAReorderableLayout.modulemap";
+				MODULEMAP_FILE = "Target Support Files/NexmoVerify/NexmoVerify.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NexmoVerify;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B284CF48C0D7F245BC1AE00ECDDCB0B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB3A7E4E1C1AA1047402DA93F850874 /* NexmoVerify.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NexmoVerify/NexmoVerify-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NexmoVerify/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NexmoVerify/NexmoVerify.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = RAReorderableLayout;
+				PRODUCT_NAME = NexmoVerify;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1051,7 +909,7 @@
 			};
 			name = Debug;
 		};
-		D72E489B59C3A70112D2342F402BD262 /* Debug */ = {
+		BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1091,7 +949,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -1100,67 +958,32 @@
 			};
 			name = Debug;
 		};
-		F795F6F745D3308B5E95E10A2A0A82DC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F25D29B1A92A6F02903AEA1BA793F02 /* Pulley.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pulley/Pulley-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pulley/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pulley/Pulley.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Pulley;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1B6F1185F748F84439EAD763CDCE421D /* Build configuration list for PBXNativeTarget "Pods-Foodle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68828D8D21F9C0C510434ED1FC125B1A /* Debug */,
+				0F2842EDC6210E1036161C2A9C6640C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D72E489B59C3A70112D2342F402BD262 /* Debug */,
-				ABC1C622E3A94D5EFA80B6DBB5E64193 /* Release */,
+				BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */,
+				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90CEABD52E33651A8E0CA79BB72B5F54 /* Build configuration list for PBXNativeTarget "Pods-Foodle" */ = {
+		6971F14B5F383D3D724AFE172E480633 /* Build configuration list for PBXNativeTarget "RAReorderableLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF572B76AA9F3805DD2757E5567B94F3 /* Debug */,
-				A0441F815CC68864909A40B2F7CB1DCB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A760C2F62EB4CA0F26F87AA7AE542AC1 /* Build configuration list for PBXNativeTarget "RAReorderableLayout" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D5F0B88B2EA80BE5E2DC4ECC9C402B88 /* Debug */,
-				C9514508514049F31B3CA6AD7E257DD2 /* Release */,
+				38BC48BD625D6FBC14DF09448D5CCD7D /* Debug */,
+				474C34FC40FC67A8ADD8784F2B601379 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1170,15 +993,6 @@
 			buildConfigurations = (
 				B284CF48C0D7F245BC1AE00ECDDCB0B2 /* Debug */,
 				81231891B322D68955A0CA3DF2896461 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E617B8D424069E51F7C63050317B0B03 /* Build configuration list for PBXNativeTarget "Pulley" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5933C093F17BDCEDAE5AFD4D18206886 /* Debug */,
-				F795F6F745D3308B5E95E10A2A0A82DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

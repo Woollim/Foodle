@@ -6,19 +6,16 @@ PODS:
     - NexmoVerify/RequestSigning (~> 1.0.6)
   - NexmoVerify/DeviceProperties (1.0.7)
   - NexmoVerify/RequestSigning (1.0.7)
-  - Pulley (2.2.3)
   - RAReorderableLayout (0.6.1)
 
 DEPENDENCIES:
   - NexmoVerify
-  - Pulley
   - RAReorderableLayout
 
 SPEC CHECKSUMS:
   NexmoVerify: f7dfa599a38ea865aafd9522cff02c333044b9cb
-  Pulley: 6574f1784f9d2ef75ae6b2a2f1304b7e2b4a8df1
   RAReorderableLayout: 5b6b87dd4022ee1747fd475623b14f5df940f754
 
-PODFILE CHECKSUM: 3892f9215bff7556294183ee8cdcbcfc96c2e29d
+PODFILE CHECKSUM: 593c9a64dc207fd0c8d64b8c5688e21b4d2edb4e
 
 COCOAPODS: 1.3.1

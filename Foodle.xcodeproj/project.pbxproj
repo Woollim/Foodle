@@ -18,6 +18,7 @@
 		C318CA18201856CC002A753B /* OwnerMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C318CA17201856CC002A753B /* OwnerMain.storyboard */; };
 		C318CA1B20185EA3002A753B /* MenuOptionBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C318CA1A20185EA3002A753B /* MenuOptionBaseVC.swift */; };
 		C323E4FD2019722B00F61796 /* MenuTableBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C323E4FC2019722B00F61796 /* MenuTableBaseVC.swift */; };
+		C35AED56201F114500105BC0 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35AED55201F114500105BC0 /* PhotoCell.swift */; };
 		C3BDFA05201EADA300FCC663 /* MenuTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3BDFA04201EADA300FCC663 /* MenuTitleCell.xib */; };
 		C3BDFA0D201EC01F00FCC663 /* menu_item_add_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C3BDFA0C201EC01F00FCC663 /* menu_item_add_icon.png */; };
 		C3BDFA0F201ECB4F00FCC663 /* MenuCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BDFA0E201ECB4F00FCC663 /* MenuCategoryVC.swift */; };
@@ -28,6 +29,9 @@
 		C3BDFA1C201EFDC000FCC663 /* MenuStepBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BDFA1B201EFDC000FCC663 /* MenuStepBaseVC.swift */; };
 		C3BDFA1F201F053F00FCC663 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3BDFA1E201F053F00FCC663 /* PhotoCell.xib */; };
 		C3BDFA21201F054E00FCC663 /* AddCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3BDFA20201F054E00FCC663 /* AddCell.xib */; };
+		C3E6D2A020201B8C00779977 /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E6D29F20201B8C00779977 /* Connector.swift */; };
+		C3E6D2A32020277C00779977 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E6D2A22020277C00779977 /* ImageModel.swift */; };
+		C3E6D2A52020315500779977 /* add_cell_add_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E6D2A42020315500779977 /* add_cell_add_icon.png */; };
 		D01311132004EDDD0056437E /* PrepareSelectPhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01311122004EDDD0056437E /* PrepareSelectPhotoVC.swift */; };
 		D01311152004EE070056437E /* BasePhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01311142004EE070056437E /* BasePhotoVC.swift */; };
 		D01C01BC1FFCEFF500662F3B /* UserEnterNumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01C01BB1FFCEFF500662F3B /* UserEnterNumVC.swift */; };
@@ -96,6 +100,7 @@
 		C318CA17201856CC002A753B /* OwnerMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OwnerMain.storyboard; sourceTree = "<group>"; };
 		C318CA1A20185EA3002A753B /* MenuOptionBaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionBaseVC.swift; sourceTree = "<group>"; };
 		C323E4FC2019722B00F61796 /* MenuTableBaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableBaseVC.swift; sourceTree = "<group>"; };
+		C35AED55201F114500105BC0 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		C3BDFA04201EADA300FCC663 /* MenuTitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuTitleCell.xib; sourceTree = "<group>"; };
 		C3BDFA0C201EC01F00FCC663 /* menu_item_add_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_item_add_icon.png; sourceTree = "<group>"; };
 		C3BDFA0E201ECB4F00FCC663 /* MenuCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCategoryVC.swift; sourceTree = "<group>"; };
@@ -106,6 +111,9 @@
 		C3BDFA1B201EFDC000FCC663 /* MenuStepBaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuStepBaseVC.swift; sourceTree = "<group>"; };
 		C3BDFA1E201F053F00FCC663 /* PhotoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
 		C3BDFA20201F054E00FCC663 /* AddCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddCell.xib; sourceTree = "<group>"; };
+		C3E6D29F20201B8C00779977 /* Connector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
+		C3E6D2A22020277C00779977 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		C3E6D2A42020315500779977 /* add_cell_add_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_cell_add_icon.png; sourceTree = "<group>"; };
 		D01311122004EDDD0056437E /* PrepareSelectPhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepareSelectPhotoVC.swift; sourceTree = "<group>"; };
 		D01311142004EE070056437E /* BasePhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePhotoVC.swift; sourceTree = "<group>"; };
 		D01C01BB1FFCEFF500662F3B /* UserEnterNumVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEnterNumVC.swift; sourceTree = "<group>"; };
@@ -234,6 +242,14 @@
 			path = OwnerMain;
 			sourceTree = "<group>";
 		};
+		C35AED54201F10FF00105BC0 /* PhotoCell */ = {
+			isa = PBXGroup;
+			children = (
+				C35AED55201F114500105BC0 /* PhotoCell.swift */,
+			);
+			path = PhotoCell;
+			sourceTree = "<group>";
+		};
 		C3BDFA1A201EFD0500FCC663 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,18 +271,46 @@
 			path = PhotoCell;
 			sourceTree = "<group>";
 		};
-		D01311102004EDA10056437E /* UserInfo */ = {
+		C3E6D2A12020276600779977 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3E6D2A22020277C00779977 /* ImageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C3E6D2A62020351800779977 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C3E6D2A72020352A00779977 /* Owner */ = {
+			isa = PBXGroup;
+			children = (
+				D01311102004EDA10056437E /* OwerInfo */,
+				C318CA19201857AF002A753B /* OwnerMain */,
+				D01311112004EDB50056437E /* Photo */,
+				C318CA022018143C002A753B /* Place */,
+				D0933D04200A1F2D004B17A6 /* Menu */,
+			);
+			path = Owner;
+			sourceTree = "<group>";
+		};
+		D01311102004EDA10056437E /* OwerInfo */ = {
 			isa = PBXGroup;
 			children = (
 				D0515C1E1FF69D26005ACBDE /* UserEnterPinVC.swift */,
 				D01C01BB1FFCEFF500662F3B /* UserEnterNumVC.swift */,
 			);
-			path = UserInfo;
+			path = OwerInfo;
 			sourceTree = "<group>";
 		};
 		D01311112004EDB50056437E /* Photo */ = {
 			isa = PBXGroup;
 			children = (
+				C35AED54201F10FF00105BC0 /* PhotoCell */,
 				D070031E2003918400E5304B /* SelectPhotoVC.swift */,
 				D01311122004EDDD0056437E /* PrepareSelectPhotoVC.swift */,
 				D01311142004EE070056437E /* BasePhotoVC.swift */,
@@ -285,6 +329,7 @@
 		D04DD6241FFDB8BB00B23741 /* Icon */ = {
 			isa = PBXGroup;
 			children = (
+				C3E6D2A42020315500779977 /* add_cell_add_icon.png */,
 				C3BDFA0C201EC01F00FCC663 /* menu_item_add_icon.png */,
 				D04DD6251FFDB90A00B23741 /* exit_icon.png */,
 				D04DD6261FFDB90A00B23741 /* cancel_icon.png */,
@@ -319,6 +364,7 @@
 			children = (
 				D04DD6231FFDB8B200B23741 /* Image */,
 				D0801DDB1FFB5B1700DC9518 /* Util */,
+				C3E6D2A12020276600779977 /* Model */,
 				D0801DD21FFB49A100DC9518 /* ViewController */,
 				D0515C4A1FF69D5E005ACBDE /* StoryBoard */,
 				D0515C1C1FF69D26005ACBDE /* AppDelegate.swift */,
@@ -357,8 +403,8 @@
 				D0801DD71FFB505000DC9518 /* Photo.storyboard */,
 				C3BDFA1D201F052300FCC663 /* PhotoCell */,
 				D0801DD91FFB505F00DC9518 /* Menu.storyboard */,
-				D0E7984120164DF100BE48C2 /* MenuCell */,
 				C318CA1020185581002A753B /* MenuOption */,
+				D0E7984120164DF100BE48C2 /* MenuCell */,
 			);
 			path = StoryBoard;
 			sourceTree = "<group>";
@@ -366,12 +412,9 @@
 		D0801DD21FFB49A100DC9518 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				C3E6D2A72020352A00779977 /* Owner */,
+				C3E6D2A62020351800779977 /* Login */,
 				D0933D09200BD722004B17A6 /* Main */,
-				C318CA19201857AF002A753B /* OwnerMain */,
-				D01311112004EDB50056437E /* Photo */,
-				C318CA022018143C002A753B /* Place */,
-				D01311102004EDA10056437E /* UserInfo */,
-				D0933D04200A1F2D004B17A6 /* Menu */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -381,6 +424,7 @@
 			children = (
 				D0801DDC1FFB5B3400DC9518 /* Shape.swift */,
 				D0801DDE1FFB5B4400DC9518 /* Base.swift */,
+				C3E6D29F20201B8C00779977 /* Connector.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -586,6 +630,7 @@
 				D0515C221FF69D26005ACBDE /* Main.storyboard in Resources */,
 				D0801DD81FFB505000DC9518 /* Photo.storyboard in Resources */,
 				C318CA16201855F0002A753B /* FoodStuff.storyboard in Resources */,
+				C3E6D2A52020315500779977 /* add_cell_add_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,13 +674,11 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Foodle/Pods-Foodle-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/NexmoVerify/NexmoVerify.framework",
-				"${BUILT_PRODUCTS_DIR}/Pulley/Pulley.framework",
 				"${BUILT_PRODUCTS_DIR}/RAReorderableLayout/RAReorderableLayout.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NexmoVerify.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pulley.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAReorderableLayout.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -680,6 +723,7 @@
 				D0E798622017C63600BE48C2 /* MenuFoodStuffVC.swift in Sources */,
 				C318CA1B20185EA3002A753B /* MenuOptionBaseVC.swift in Sources */,
 				D0E79855201663BA00BE48C2 /* MenuSizeEditVC.swift in Sources */,
+				C3E6D2A020201B8C00779977 /* Connector.swift in Sources */,
 				D0E79859201664DC00BE48C2 /* MenuOptionVC.swift in Sources */,
 				D0801DDF1FFB5B4400DC9518 /* Base.swift in Sources */,
 				D0E79853201661C800BE48C2 /* MenuSizeVC.swift in Sources */,
@@ -688,11 +732,13 @@
 				D0E7985D2016697F00BE48C2 /* SelectionEditVC.swift in Sources */,
 				C318CA0420181474002A753B /* EnterPlaceVC.swift in Sources */,
 				C3BDFA19201EF75D00FCC663 /* MenuCategoryEditVC.swift in Sources */,
+				C35AED56201F114500105BC0 /* PhotoCell.swift in Sources */,
 				D0515C1F1FF69D26005ACBDE /* UserEnterPinVC.swift in Sources */,
 				D01311152004EE070056437E /* BasePhotoVC.swift in Sources */,
 				D0801DDD1FFB5B3400DC9518 /* Shape.swift in Sources */,
 				C3BDFA1C201EFDC000FCC663 /* MenuStepBaseVC.swift in Sources */,
 				D0515C1D1FF69D26005ACBDE /* AppDelegate.swift in Sources */,
+				C3E6D2A32020277C00779977 /* ImageModel.swift in Sources */,
 				D0933D0B200BD73A004B17A6 /* ShopMainVC.swift in Sources */,
 				D0E7984D2016564600BE48C2 /* MenuStepVC.swift in Sources */,
 				D0E7984B2016528000BE48C2 /* MenuListVC.swift in Sources */,
@@ -869,7 +915,7 @@
 				DEVELOPMENT_TEAM = W3868KR87Z;
 				INFOPLIST_FILE = Foodle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = root.Foodle;
+				PRODUCT_BUNDLE_IDENTIFIER = Foodle.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -885,7 +931,7 @@
 				DEVELOPMENT_TEAM = W3868KR87Z;
 				INFOPLIST_FILE = Foodle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = root.Foodle;
+				PRODUCT_BUNDLE_IDENTIFIER = Foodle.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;

@@ -7,14 +7,11 @@
 //
 
 import UIKit
-import Pulley
 
 class MainVC: UIViewController {
-
-    var pullyVC: PulleyViewController? = nil
     
     override func viewDidLoad() {
-        pullyVC = PulleyViewController.init(contentViewController: getVC("TempView"), drawerViewController: getVC("ShopMainView"))
+        
         
     }
 
