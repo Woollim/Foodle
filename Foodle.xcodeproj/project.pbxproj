@@ -32,6 +32,7 @@
 		C3E6D2A020201B8C00779977 /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E6D29F20201B8C00779977 /* Connector.swift */; };
 		C3E6D2A32020277C00779977 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E6D2A22020277C00779977 /* ImageModel.swift */; };
 		C3E6D2A52020315500779977 /* add_cell_add_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E6D2A42020315500779977 /* add_cell_add_icon.png */; };
+		C3E6D2A92020387100779977 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3E6D2A82020387100779977 /* GoogleService-Info.plist */; };
 		D01311132004EDDD0056437E /* PrepareSelectPhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01311122004EDDD0056437E /* PrepareSelectPhotoVC.swift */; };
 		D01311152004EE070056437E /* BasePhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01311142004EE070056437E /* BasePhotoVC.swift */; };
 		D01C01BC1FFCEFF500662F3B /* UserEnterNumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01C01BB1FFCEFF500662F3B /* UserEnterNumVC.swift */; };
@@ -114,6 +115,7 @@
 		C3E6D29F20201B8C00779977 /* Connector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
 		C3E6D2A22020277C00779977 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
 		C3E6D2A42020315500779977 /* add_cell_add_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_cell_add_icon.png; sourceTree = "<group>"; };
+		C3E6D2A82020387100779977 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D01311122004EDDD0056437E /* PrepareSelectPhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepareSelectPhotoVC.swift; sourceTree = "<group>"; };
 		D01311142004EE070056437E /* BasePhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePhotoVC.swift; sourceTree = "<group>"; };
 		D01C01BB1FFCEFF500662F3B /* UserEnterNumVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEnterNumVC.swift; sourceTree = "<group>"; };
@@ -362,6 +364,7 @@
 		D0515C1B1FF69D26005ACBDE /* Foodle */ = {
 			isa = PBXGroup;
 			children = (
+				C3E6D2A82020387100779977 /* GoogleService-Info.plist */,
 				D04DD6231FFDB8B200B23741 /* Image */,
 				D0801DDB1FFB5B1700DC9518 /* Util */,
 				C3E6D2A12020276600779977 /* Model */,
@@ -625,6 +628,7 @@
 				D0E798482016505900BE48C2 /* MenuAddCell.xib in Resources */,
 				D0515C241FF69D26005ACBDE /* Assets.xcassets in Resources */,
 				D0E7984620164EC600BE48C2 /* MenuDetailCell.xib in Resources */,
+				C3E6D2A92020387100779977 /* GoogleService-Info.plist in Resources */,
 				C3BDFA0D201EC01F00FCC663 /* menu_item_add_icon.png in Resources */,
 				C3BDFA1F201F053F00FCC663 /* PhotoCell.xib in Resources */,
 				D0515C221FF69D26005ACBDE /* Main.storyboard in Resources */,
@@ -673,13 +677,21 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Foodle/Pods-Foodle-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/NexmoVerify/NexmoVerify.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/RAReorderableLayout/RAReorderableLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NexmoVerify.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAReorderableLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
