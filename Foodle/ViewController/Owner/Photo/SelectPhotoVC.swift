@@ -31,21 +31,12 @@ class SelectPhotoVC: BasePhotoVC{
         collectionView.reloadData()
     }
     
-    @IBAction func add(_ sender: Any) {
+    @IBAction func add() {
         addPhoto()
     }
     
     @IBAction func upload(){
-        Connector.instance.uploadImage(add: "", method: "POST", images: getImageModelArr())
-    }
-    
-    func getImageModelArr() -> [ImageModel]{
-        var imageArr = [ImageModel]()
-        for index in 0..<photoArr.count{
-            guard let image = ImageModel.init(key: "images", fileName: "\(index)mSendData", image: photoArr[index]) else{ continue }
-            imageArr.append(image)
-        }
-        return imageArr
+        Connector.instance.uploadImage(add: "/photo", method: "POST", images: getImageModelArr())
     }
     
 }
@@ -90,6 +81,8 @@ extension SelectPhotoVC: RAReorderableLayoutDelegate, RAReorderableLayoutDataSou
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if indexPath.row == photoArr.count{
             addPhoto()
+        }else{
+            removePhoto(indexPath)
         }
     }
     
@@ -99,6 +92,20 @@ extension SelectPhotoVC: RAReorderableLayoutDelegate, RAReorderableLayoutDataSou
     
     func collectionView(_ collectionView: UICollectionView, at: IndexPath, canMoveTo: IndexPath) -> Bool {
         return canMoveTo.row < photoArr.count
+    }
+    
+    func getImageModelArr() -> [ImageModel]{
+        var imageArr = [ImageModel]()
+        for index in 0..<photoArr.count{
+            guard let image = ImageModel.init(key: "images", fileName: "\(index)mSendData", image: photoArr[index]) else{ continue }
+            imageArr.append(image)
+        }
+        return imageArr
+    }
+    
+    func removePhoto(_ indexPath: IndexPath){
+        addAlert([UIAlertAction.init(title: "사진 삭제", style: .destructive, handler: { _ in self.photoArr.remove(at: indexPath.row)
+            self.collectionView.deleteItems(at: [indexPath])})])
     }
     
 }

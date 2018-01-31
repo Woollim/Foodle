@@ -10,7 +10,7 @@ import Foundation
 
 class Connector{
     
-    let baseUrl = ""
+    let baseUrl = "http://52.78.115.181:7001"
     static var instance = Connector()
     
     private init(){}
@@ -24,7 +24,6 @@ class Connector{
         
         URLSession.shared.dataTask(with: request){
             data, res, err in
-            print(data)
             print(res)
             print(err)
         }.resume()

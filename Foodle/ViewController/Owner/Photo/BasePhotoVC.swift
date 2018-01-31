@@ -14,11 +14,7 @@ class BasePhotoVC: UIViewController, UIImagePickerControllerDelegate, UINavigati
     let imagePicker = UIImagePickerController()
 
     func addPhoto(){
-        let alert = UIAlertController.init(title: nil, message: nil, preferredStyle: .actionSheet)
-        alert.addAction(UIAlertAction.init(title: "카메라로 사진 찍기", style: .default, handler: openCamera(_:)))
-        alert.addAction(UIAlertAction.init(title: "앨범에서 사진 가져오기", style: .default, handler: openAlbum(_:)))
-        alert.addAction(UIAlertAction.init(title: "취소", style: .cancel, handler: nil))
-        present(alert, animated: true, completion: nil)
+        addAlert([UIAlertAction.init(title: "카메라로 사진 찍기", style: .default, handler: openCamera(_:)), UIAlertAction.init(title: "앨범에서 사진 가져오기", style: .default, handler: openAlbum(_:))])
     }
     
     func openCamera(_ action: UIAlertAction){
@@ -58,6 +54,13 @@ class BasePhotoVC: UIViewController, UIImagePickerControllerDelegate, UINavigati
     
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         picker.dismiss(animated: true, completion: nil)
+    }
+    
+    func addAlert(_ actions:[UIAlertAction]){
+        let alert = UIAlertController.init(title: nil, message: nil, preferredStyle: .actionSheet)
+        for action in actions{ alert.addAction(action) }
+        alert.addAction(UIAlertAction.init(title: "취소", style: .cancel, handler: nil))
+        present(alert, animated: true, completion: nil)
     }
 
 }

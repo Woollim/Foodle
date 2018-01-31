@@ -134,6 +134,9 @@
                                         <state key="normal" title="저장">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="upload" destination="Bs2-o8-jhT" eventType="touchUpInside" id="qZ6-wI-5Hh"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -152,7 +155,7 @@
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="QwQ-oq-C0P"/>
                                     <barButtonItem systemItem="add" id="czT-Tp-cWG">
                                         <connections>
-                                            <action selector="add:" destination="Bs2-o8-jhT" id="JPT-r4-nuS"/>
+                                            <action selector="add" destination="Bs2-o8-jhT" id="ZEt-oQ-iY9"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
