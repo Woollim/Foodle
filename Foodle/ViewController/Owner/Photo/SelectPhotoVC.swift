@@ -104,8 +104,12 @@ extension SelectPhotoVC: RAReorderableLayoutDelegate, RAReorderableLayoutDataSou
     }
     
     func removePhoto(_ indexPath: IndexPath){
-        addAlert([UIAlertAction.init(title: "사진 삭제", style: .destructive, handler: { _ in self.photoArr.remove(at: indexPath.row)
-            self.collectionView.deleteItems(at: [indexPath])})])
+        addAlert([UIAlertAction.init(title: "사진 삭제", style: .destructive){
+            _ in
+            self.photoArr.remove(at: indexPath.row)
+            self.collectionView.deleteItems(at: [indexPath])
+            (self.collectionView.cellForItem(at: indexPath) as! PhotoCell).titleView.isHidden = indexPath.row != 0
+        }])
     }
     
 }

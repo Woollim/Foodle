@@ -12,6 +12,8 @@ import MobileCoreServices
 class BasePhotoVC: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     let imagePicker = UIImagePickerController()
+    
+    private var indexPaht: IndexPath?
 
     func addPhoto(){
         addAlert([UIAlertAction.init(title: "카메라로 사진 찍기", style: .default, handler: openCamera(_:)), UIAlertAction.init(title: "앨범에서 사진 가져오기", style: .default, handler: openAlbum(_:))])
