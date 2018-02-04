@@ -21,11 +21,10 @@ class Connector{
         let boundary = "Boundary-\(UUID().uuidString)"
         request.setValue("multipart/form-data; boundary=\(boundary)", forHTTPHeaderField: "Content-Type")
         request.httpBody = createImageBody(images, boundary: boundary)
-        
+
         URLSession.shared.dataTask(with: request){
             data, res, err in
-            print(res)
-            print(err)
+            print((res as! HTTPURLResponse).statusCode)
         }.resume()
     }
     
@@ -34,12 +33,12 @@ class Connector{
 extension Connector{
     
     private func createImageBody(_ images: [ImageModel], boundary: String) -> Data{
-        let lineBreak = "/r/n"
+        let lineBreak = "\r\n"
         var body = Data()
         
         for image in images{
             body.append("--\(boundary + lineBreak)")
-            body.append("Content-Disposition: form-data; name\"\(image.key)\"; filename=\"\(image.fileName)\"\(lineBreak)")
+            body.append("Content-Disposition: form-data; name=\"\(image.key)\"; filename=\"\(image.fileName)\"\(lineBreak)")
             body.append("Content-Type: \(image.type + lineBreak + lineBreak)")
             body.append(image.data)
             body.append(lineBreak)
