@@ -10,16 +10,16 @@ import UIKit
 
 class MenuSizeEditVC: UIViewController {
 
-    @IBOutlet weak var nameTextField: UITextField!
-    @IBOutlet weak var priseTextField: UITextField!
+    @IBOutlet weak var sizeNameEdit: EditText!
+    @IBOutlet weak var sizePriseEdit: EditText!
     
     var data: (String, String)?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         if let sendData = data{
-            nameTextField.text = sendData.0
-            priseTextField.text = sendData.1
+            sizeNameEdit.textField.text = sendData.0
+            sizePriseEdit.textField.text = sendData.1
         }
     }
     

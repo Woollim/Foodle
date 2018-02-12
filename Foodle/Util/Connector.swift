@@ -15,9 +15,9 @@ class Connector{
     
     private init(){}
     
-    func uploadImage(add: String, method: String, images: [ImageModel]){
+    func uploadImage(add: String, method: RequestMethod, images: [ImageModel]){
         var request = URLRequest.init(url: URL.init(string: baseUrl + add)!)
-        request.httpMethod = method
+        request.httpMethod = method.rawValue
         let boundary = "Boundary-\(UUID().uuidString)"
         request.setValue("multipart/form-data; boundary=\(boundary)", forHTTPHeaderField: "Content-Type")
         request.httpBody = createImageBody(images, boundary: boundary)
@@ -26,6 +26,10 @@ class Connector{
             data, res, err in
             print((res as! HTTPURLResponse).statusCode)
         }.resume()
+    }
+    
+    func request(){
+        
     }
     
 }
@@ -47,6 +51,13 @@ extension Connector{
     
         return body
     }
+    
+}
+
+enum RequestMethod: String{
+    
+    case get = "GET"
+    case post = "POST"
     
 }
 

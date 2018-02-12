@@ -10,13 +10,15 @@ import UIKit
 
 class EnterPlaceVC: UIViewController {
 
-    @IBOutlet weak var addressTextField: UITextField!
-    @IBOutlet weak var addressAddTextField: UITextField!
-    @IBOutlet weak var backButton: UIButton!
+    @IBOutlet weak var addressEdit: EditText!
+    @IBOutlet weak var addressAddEdit: EditText!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        backButton.imageView?.tintColor = Color.red.getColor()
     }
 
+    @IBAction func back(_ sender: Any) {
+        self.goBack()
+    }
+    
 }

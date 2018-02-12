@@ -33,8 +33,7 @@ class RedStrokeButtonShape: RoundButtonShape{
 
 class RoundButtonShape: UIButton{
     
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
+    override func awakeFromNib() {
         setLayout()
     }
     
@@ -47,8 +46,7 @@ class RoundButtonShape: UIButton{
 
 class ExitButtonShape: UIButton{
     
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
+    override func awakeFromNib() {
         setLayout()
     }
     
@@ -56,18 +54,14 @@ class ExitButtonShape: UIButton{
         let image = UIImage.init(named: "exit_icon")?.withRenderingMode(.alwaysTemplate)
         setImage(image, for: .normal)
         tintColor = Color.red.getColor()
+        imageEdgeInsets = UIEdgeInsetsMake(4, 4, 4, 4)
     }
-    
-}
-
-class CancelButtonShape: UIButton{
     
 }
 
 class RedNavigationShape: UINavigationController{
     
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
+    override func awakeFromNib() {
         navigationBar.barTintColor = Color.red.getColor()
         navigationBar.tintColor = UIColor.white
         navigationBar.setBackgroundImage(UIImage(), for: .default)
@@ -77,6 +71,7 @@ class RedNavigationShape: UINavigationController{
 }
 
 enum Color{
+    
     case red
     
     func getColor() -> UIColor{
@@ -85,4 +80,5 @@ enum Color{
             return UIColor.init(red: 238/255, green: 85/255, blue: 85/255, alpha: 1)
         }
     }
+    
 }

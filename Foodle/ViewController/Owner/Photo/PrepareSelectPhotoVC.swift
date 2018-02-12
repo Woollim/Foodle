@@ -17,13 +17,13 @@ class PrepareSelectPhotoVC: BasePhotoVC {
         titleLabel.text = "사진을 등록할\n준비가 되었나요?"
     }
 
-    @IBAction func back(_ sender: Any) {}
+    @IBAction func back(_ sender: Any) { self.goBack() }
     
     @IBAction func add(_ sender: Any) {
         addPhoto()
     }
     
-    @IBAction func cancel(_ sender: Any) {}
+    @IBAction func cancel(_ sender: Any) { self.goBack() }
     
     override func getPhoto(_ image: UIImage) {
         selectPhotoVC = storyboard?.instantiateViewController(withIdentifier: "SelectPhotoView") as? SelectPhotoVC

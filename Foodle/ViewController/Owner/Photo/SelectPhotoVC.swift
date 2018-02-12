@@ -36,7 +36,7 @@ class SelectPhotoVC: BasePhotoVC{
     }
     
     @IBAction func upload(){
-        Connector.instance.uploadImage(add: "/photo", method: "POST", images: getImageModelArr())
+        Connector.instance.uploadImage(add: "/photo", method: .post, images: getImageModelArr())
     }
     
 }
