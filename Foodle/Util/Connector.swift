@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import RxSwift
+import RxAlamofire
 
 class Connector{
     
@@ -15,26 +17,31 @@ class Connector{
     
     private init(){}
     
-    func uploadImage(add: String, method: RequestMethod, images: [ImageModel]){
-        var request = URLRequest.init(url: URL.init(string: baseUrl + add)!)
-        request.httpMethod = method.rawValue
+    func uploadImage(_ request: URLRequest, images: [ImageModel]) -> Observable<Int>{
+        var request = request
         let boundary = "Boundary-\(UUID().uuidString)"
         request.setValue("multipart/form-data; boundary=\(boundary)", forHTTPHeaderField: "Content-Type")
         request.httpBody = createImageBody(images, boundary: boundary)
-
-        URLSession.shared.dataTask(with: request){
-            data, res, err in
-            print((res as! HTTPURLResponse).statusCode)
-        }.resume()
+        return requestData(request).do{ [unowned self] in self.setNetIndi(true) }
+            .flatMapFirst{ return Observable.just($0.0.statusCode) }
+            .observeOn(MainScheduler.instance)
+            .do{ [unowned self] in self.setNetIndi(false) }
     }
     
-    func request(){
-        
+    func request(_ request: URLRequest) -> Observable<(Int, Data?)>{
+        return requestData(request).do{ [unowned self] in self.setNetIndi(true) }
+            .flatMapFirst{ return Observable.just(($0.0.statusCode, $0.1)) }
+            .observeOn(MainScheduler.instance)
+            .do{ [unowned self] in self.setNetIndi(false) }
     }
     
 }
 
 extension Connector{
+    
+    private func setNetIndi(_ set: Bool){
+        UIApplication.shared.isNetworkActivityIndicatorVisible = set
+    }
     
     private func createImageBody(_ images: [ImageModel], boundary: String) -> Data{
         let lineBreak = "\r\n"
@@ -52,6 +59,18 @@ extension Connector{
         return body
     }
     
+    public func createRequest(sub: String, method: RequestMethod, params: [String : String]) -> URLRequest{
+        var urlStr = baseUrl + sub
+        var paramStr = ""
+        for param in params{ paramStr += param.key + "=" + param.value + "," }
+        if !paramStr.isEmpty{ paramStr.removeLast() }
+        if method == .get{ urlStr += paramStr }
+        var request = URLRequest(url: URL(string: urlStr)!)
+        request.httpMethod = method.rawValue
+        if method != .get{ request.httpBody = paramStr.data(using: .utf8) }
+        return request
+    }
+    
 }
 
 enum RequestMethod: String{
@@ -63,7 +82,7 @@ enum RequestMethod: String{
 
 extension Data{
     
-    public mutating func append(_ string: String) {
+    fileprivate mutating func append(_ string: String) {
         append(string.data(using: .utf8)!)
     }
     

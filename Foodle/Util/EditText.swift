@@ -37,7 +37,7 @@ class EditText: UIView{
         addSubview(view)
     }
     
-    func setClear(_ edit: Bool){
+    private func setClear(_ edit: Bool){
         clearButton.isEnabled = edit
         if edit{
             clearButton.setImage(UIImage.init(named: "exit_icon"), for: .normal)
@@ -46,6 +46,7 @@ class EditText: UIView{
     
     @objc func click(){
         textField.text = ""
+        clearButton.setImage(nil, for: .normal)
     }
     
 }

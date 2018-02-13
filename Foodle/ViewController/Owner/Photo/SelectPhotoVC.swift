@@ -8,6 +8,7 @@
 
 import UIKit
 import RAReorderableLayout
+import RxSwift
 
 class SelectPhotoVC: BasePhotoVC{
     
@@ -35,8 +36,13 @@ class SelectPhotoVC: BasePhotoVC{
         addPhoto()
     }
     
+    let disposeBag = DisposeBag()
+    
     @IBAction func upload(){
-        Connector.instance.uploadImage(add: "/photo", method: .post, images: getImageModelArr())
+        let c = Connector.instance
+        c.uploadImage(c.createRequest(sub: "/photo", method: .post, params: [:]), images: getImageModelArr()).subscribe(onNext: {
+            print($0)
+        }).disposed(by: disposeBag)
     }
     
 }
