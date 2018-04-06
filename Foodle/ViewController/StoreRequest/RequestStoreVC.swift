@@ -31,6 +31,8 @@ class RequestStoreVC: UIViewController {
     }
     
     func initTable(){
+        
+        // FIXME: xib이나 stroyboard에서 datasource랑 delegate를 연결하는 방법이 있으니, 찾아보세요. 코드에서 불필요한 부분을 줄이는데, 도움이 됩니다.
         tableView.dataSource = self
         tableView.delegate = self
         tableView.register(UINib.init(nibName: titleCellId, bundle: nil), forCellReuseIdentifier: titleCellId)
@@ -76,6 +78,7 @@ extension RequestStoreVC: UITableViewDataSource, UITableViewDelegate{
         }
     }
     
+    // MARK: 이 부분은 특별히 말씁드릴 부분은 없으나, 참고 삼아 Auto-sizing(혹은 self-sizing) Cell을 찾아보세요.
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         switch indexPath.row {
         case 0:

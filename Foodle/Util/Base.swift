@@ -23,10 +23,14 @@ extension UIViewController{
         indicator.layer.cornerRadius = 16
         view.addSubview(indicator)
         indicator.startAnimating()
+        
+        // FIXME: 여기 return문이 로직적으로 의미를 가지는 건가요?
         return indicator.removeFromSuperview
     }
     
     func showToast(msg: String){
+        
+        // FIXME: 토스트의 위치가 safe-area가 존재하는 화면은 고려가 안 되있는듯 합니다.
         let toast = UILabel.init(frame: CGRect.init(x: 32, y: view.frame.height - 156, width: view.frame.width - 64, height: 48))
         toast.layer.cornerRadius = 12
         toast.backgroundColor = UIColor.black.withAlphaComponent(0.5)

@@ -41,6 +41,7 @@ class UserEnterNumVC: UIViewController {
     }
     
     @IBAction func next(_ sender: UIButton) {
+        // FIXME: storyboard를 사용한 부분이라면 segue를 사용하면 굳이 instanciate를 할 필요가 없습니다.
         let enterPinVC = storyboard?.instantiateViewController(withIdentifier: "UserEnterPinView") as! UserEnterPinVC
         enterPinVC.checkUserNum(countryCode: countryCodeStrArr[currentCountryNum], phoneNum: userNumTextField.text!)
         present(enterPinVC, animated: true, completion: nil)
