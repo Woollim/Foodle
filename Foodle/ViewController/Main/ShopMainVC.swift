@@ -30,6 +30,7 @@ extension ShopMainVC: UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        // FIXME: 다른 곳(RequestStoreVC) 에서는 cell ID를 클래스 내부에 상수화해서 쓰셨는데, 여긴 함수안에 local에 생성하신 이유가 있나요?
         let cellNameArr = ["ShopMainTitleCell", "ShopMainPlaceCell", "ShopMainInfoTitleCell", "ShopMainInfoCell"]
         
         if indexPath.row > 2{

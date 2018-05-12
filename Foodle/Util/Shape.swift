@@ -53,6 +53,8 @@ class ExitButtonShape: UIButton{
     func setLayout(){
         let image = UIImage.init(named: "exit_icon")?.withRenderingMode(.alwaysTemplate)
         setImage(image, for: .normal)
+        
+        // FIXME: Color literal을 검색해보세요. 가독성 측면이나 수정에도 용이할듯 합니다.
         tintColor = Color.red.getColor()
         imageEdgeInsets = UIEdgeInsetsMake(4, 4, 4, 4)
     }

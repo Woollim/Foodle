@@ -19,6 +19,7 @@ class MainVC: UIViewController {
 
 extension MainVC {
     
+    // FIXME: 실제로 쓰이는 함수가 아닌거 같은데, 사용하지 않는 코드는 그때그때 정리하는 습관이 좋습니다. 향후 재활용할 계획이 없다면요.
     func getVC(_ id: String) -> UIViewController{
         return (storyboard?.instantiateViewController(withIdentifier: id))!
     }
